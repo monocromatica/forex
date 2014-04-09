@@ -1,0 +1,119 @@
+/*--------------variables-------------*/
+/*--------------header---------------*/
+header {
+  width: 100%;
+  height: 100px;
+  margin: 15px 0;
+}
+header #menu {
+  font-family: "Nexa light", Helvetica, Arial;
+  font-size: large;
+  margin-top: 40px;
+}
+/*---------------footer---------------*/
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #898989;
+}
+/*---------------Index---------------*/
+#slide {
+  width: 100%;
+}
+#slide .slider-container {
+  margin: 0 -15px;
+}
+#slide #slider {
+  width: 100%;
+}
+.centrado {
+  color: #1ca8f7;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  text-align: center;
+}
+.justificado {
+  text-align: justify;
+  color: #7e7e7e;
+}
+#aprenderas {
+  margin-top: 500px;
+}
+#aprenderas h1 {
+  color: #636363;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#aprenderas h3 {
+  color: #1ca8f7;
+}
+#aprenderas p {
+  color: #7e7e7e;
+}
+.aprende {
+  margin: 20px 0 20px 0;
+  padding: 100px 0 30px 0;
+}
+.derecha {
+  text-align: right;
+}
+.izquierda {
+  margin-left: 100px;
+}
+#comienza {
+  width: 100%;
+  background-color: #a7de57;
+  padding: 70px 0;
+}
+#comienza h1 {
+  color: white;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  font-size: 4em;
+}
+#comienza p {
+  color: black;
+  font-family: "Nexa light", Helvetica, Arial;
+  font-size: large;
+}
+#comienza span {
+  font-family: "Nexa Bold", Helvetica, Arial;
+  color: white;
+  padding-left: 40px;
+  font-size: x-large;
+}
+.centrado {
+  text-align: center;
+}
+a.btn-azul {
+  margin-left: 37%;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  position: relative;
+  top: 0;
+  margin-bottom: 30px;
+  padding: 15px 45px;
+  background: #1ca8f7;
+  box-shadow: 0px 6px 0px #136f9f;
+  color: white;
+  font-size: 28px;
+  font-family: "Nexa Bold", Helvetica, Arial;
+}
+a.btn-azul:hover {
+  top: 4px;
+  background: #12a4f7 !important;
+  box-shadow: 0px 4px 0px #136f9f;
+  text-decoration: none;
+}
+a.btn-azul:active {
+  top: 7px;
+  background: #12a4f7 !important;
+  box-shadow: 0px 2px 0px #136f9f;
+}
+/*---------------Curso---------------*/
+/*---------------Comprar---------------*/
+/*---------------Afiliate---------------*/
+/*---------------Contacto---------------*/
