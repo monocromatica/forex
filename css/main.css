@@ -16,6 +16,12 @@ footer {
   height: 50px;
   background-color: #898989;
 }
+footer p {
+  text-align: center;
+  color: #636363;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  padding-top: 1%;
+}
 /*---------------Index---------------*/
 #slide {
   width: 100%;
@@ -80,9 +86,6 @@ footer {
   padding-left: 40px;
   font-size: x-large;
 }
-.centrado {
-  text-align: center;
-}
 a.btn-azul {
   margin-left: 37%;
   -webkit-border-radius: 5px !important;
@@ -112,6 +115,148 @@ a.btn-azul:active {
   top: 7px;
   background: #12a4f7 !important;
   box-shadow: 0px 2px 0px #136f9f;
+}
+#beneficios {
+  margin: 100px;
+}
+#beneficios #mac {
+  right: 180px;
+  top: 200px;
+}
+#beneficios #encabezados ul {
+  color: #636363;
+  text-align: left;
+  margin-left: -30px;
+  font-family: helvetica, arial;
+  margin-bottom: 50px;
+}
+.light {
+  text-align: center;
+  font-family: "Nexa light", Helvetica, Arial;
+  color: #1ca8f7;
+  font-size: 4.5em;
+  line-height: 30%;
+}
+a.btn-verde {
+  right: -60%;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  position: relative;
+  top: 0;
+  margin-bottom: 30px;
+  padding: 10px 90px;
+  background: #a7de57;
+  box-shadow: 0px 6px 0px #7ba53b;
+  color: white;
+  font-size: 28px;
+  font-family: "Nexa Bold", Helvetica, Arial;
+}
+a.btn-verde:hover {
+  top: 4px;
+  background: #a3dc4e !important;
+  box-shadow: 0px 4px 0px #7ba53b;
+  text-decoration: none;
+}
+a.btn-verde:active {
+  top: 7px;
+  background: #a3dc4e !important;
+  box-shadow: 0px 2px 0px #7ba53b;
+}
+.jOscuro {
+  text-align: justify;
+  color: #636363;
+  margin: 50px 0;
+  font-family: helvetica, arial;
+}
+#testimoniales {
+  width: 100%;
+  background-image: url('../img/forex-quote-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+#testimoniales h2 {
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.55);
+  padding: 40px 0 15px 3%;
+}
+#testimoniales span {
+  float: right;
+  color: #136f9f;
+}
+.nexab {
+  font-family: "Nexa Bold", Helvetica, Arial;
+}
+.nexal {
+  font-family: "Nexa light", Helvetica, Arial;
+}
+.azulOscuro {
+  color: #136f9f;
+}
+#franjaAzul {
+  width: 100%;
+  background-color: #1ca8f7;
+  padding: 10px 0;
+}
+#franjaAzul p {
+  margin-left: -60px;
+  padding-top: 20px;
+  color: white;
+  font-family: "Nexa light", Helvetica, Arial;
+}
+#franjaAzul p span {
+  font-size: 1.8em;
+  font-family: "Nexa Bold", Helvetica, Arial;
+}
+#franjaAzul #btn-af {
+  height: 70px;
+  width: 250px;
+  background-color: #136f9f;
+  padding: 10px 0 10px 40px;
+  margin-left: -30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+a.btn-afiliado {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  position: relative;
+  top: 0;
+  color: white;
+  padding-right: 60px;
+}
+a.btn-afiliado span {
+  font-size: 2.3em;
+  font-family: "Nexa Bold", Helvetica, Arial;
+}
+a.btn-afiliado:hover {
+  top: 4px;
+  background: #126996 !important;
+  text-decoration: none;
+}
+a.btn-afiliado:active {
+  top: 7px;
+  background: #126996 !important;
+}
+#riesgo {
+  background-color: #D7D7D7;
+  background-image: url('../img/forex-X.png');
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+#riesgo #advertencia h3 {
+  padding: 10px 0px;
+  text-align: center;
+}
+#riesgo #izq {
+  margin-left: 30px;
 }
 /*---------------Curso---------------*/
 /*---------------Comprar---------------*/

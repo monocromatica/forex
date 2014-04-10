@@ -6,6 +6,7 @@
 @azul:#1CA8F7;
 @verde:#A7DE57;
 @azulOscuro:#136F9F;
+@verdeOscuro:#7BA53B;
 @h:#636363;
 @texto:#7E7E7E;
 @nexaB:"Nexa Bold", Helvetica, Arial;
@@ -31,6 +32,12 @@ footer{
 	width: 100%;
 	height: 50px;
 	background-color:#898989;
+	p{
+		text-align: center;
+		color: #636363;
+		font-family: @nexaB;
+		padding-top: 1%;
+	}
 }
 /*---------------Index---------------*/
 #slide{
@@ -98,9 +105,7 @@ footer{
 		font-size: x-large;
 	}
 }
-.centrado{
-		text-align: center;
-}
+
 a.btn-azul {
 	margin-left:37%; 
 	.rounded(5px) !important;
@@ -124,6 +129,146 @@ a.btn-azul {
 		top:7px;
 		background: darken(@azul, 2%) !important;
 		box-shadow: 0px 2px 0px @azulOscuro;
+	}
+}
+
+#beneficios{
+	margin: 100px;
+	#mac{
+		right: 180px;
+		top:200px;
+	}
+	#encabezados{
+		ul{
+			color: @h;
+			text-align: left;
+			margin-left: -30px;
+			font-family: helvetica, arial;
+			margin-bottom: 50px;
+		}
+	}
+}
+.light{
+	text-align: center;
+	font-family: @nexaL;
+	color: @azul;
+	font-size: 4.5em;
+	line-height: 30%;
+}
+a.btn-verde {
+	right: -60%;
+	.rounded(5px) !important;
+	.transition(.2s, ease);
+	position: relative;
+	top:0;
+	margin-bottom: 30px;
+	padding:10px 90px;
+	background: @verde;
+	box-shadow: 0px 6px 0px @verdeOscuro;
+	color: white;
+	font-size: 28px;
+	font-family: @nexaB;
+	&:hover{
+		top:4px;
+		background: darken(@verde, 2%) !important;
+		box-shadow: 0px 4px 0px @verdeOscuro;
+		text-decoration: none;
+	}
+	&:active{
+		top:7px;
+		background: darken(@verde, 2%) !important;
+		box-shadow: 0px 2px 0px @verdeOscuro;
+	}
+}
+.jOscuro{
+	text-align: justify;
+	color: @h;
+	margin: 50px 0;
+	font-family: helvetica, arial;
+}
+
+#testimoniales{
+	width: 100%;
+	background-image: url('../img/forex-quote-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	h2{
+		color: white;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.55);
+		padding: 40px 0 15px 3%;
+	}
+	span{
+		float: right;
+		color: @azulOscuro;
+	}
+}
+.nexab{
+	font-family: @nexaB;
+}
+.nexal{
+	font-family: @nexaL;
+}
+.azulOscuro{
+	color: @azulOscuro;
+}
+#franjaAzul{
+	width: 100%;
+	background-color: @azul;
+	padding: 10px 0;
+	p{
+		margin-left: -60px;
+		padding-top: 20px;
+		color: white;
+		font-family: @nexaL;
+		span{
+			font-size: 1.8em;
+			font-family: @nexaB;
+		}
+	}
+	#btn-af{
+		height: 70px;
+		width: 250px;
+		background-color: @azulOscuro;
+		padding: 10px 0 10px 40px;
+		margin-left: -30px;
+		.rounded(5px)
+	}
+}
+a.btn-afiliado {
+	.transition(.2s, ease);
+	position: relative;
+	top:0;
+	color: white;
+	padding-right: 60px;
+	span{
+		font-size: 2.3em;
+		font-family: @nexaB;
+		
+	}
+	&:hover{
+		top:4px;
+		background: darken(@azulOscuro, 2%) !important;
+		text-decoration: none;
+	}
+	&:active{
+		top:7px;
+		background: darken(@azulOscuro, 2%) !important;
+	}
+}
+
+#riesgo{
+	background-color: #D7D7D7;
+	background-image: url('../img/forex-X.png');
+	background-repeat: no-repeat;
+	padding: 50px 0;
+	#advertencia{
+		h3{
+			padding: 10px 0px;
+			text-align: center;
+		}
+	}
+	#izq{
+		margin-left: 30px;
 	}
 }
 
