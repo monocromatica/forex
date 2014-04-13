@@ -281,3 +281,10 @@ a.btn-afiliado:active {
 }
 /*---------------Afiliate---------------*/
 /*---------------Contacto---------------*/
+/*----------------SOPORTE-------------*/
+#soporte ul {
+  list-style: none;
+}
+#soporte #img-soporte {
+  background-image: url('../img/soportebanner.jpg');
+}
