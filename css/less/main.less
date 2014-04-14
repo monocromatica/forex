@@ -286,7 +286,29 @@ a.btn-afiliado {
 #comprar{
 	width: 100%;
 	section{
-		margin-top: -800px;
+		width: 500px;
+		margin: -800px 10% 0 40%;
+		background-color: white;
+		padding: 50px;
+		.rounded(10px);
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+		h1{
+			color: @azulOscuro;
+		}
+		h4{
+			font-family: @nexaL;
+			color: @azulOscuro;
+		}
+		h2{
+			font-family: @nexaL;
+			color: @azulOscuro;
+			padding-top: 30px;
+		}
+		ul{
+			color: @texto;
+			font-family: Helvetica;
+			list-style:none;
+		}
 		#contenido-comprar{
 			background-color: white;
 		}
@@ -294,38 +316,108 @@ a.btn-afiliado {
 			
 		}
 		ul{
-			padding: 10px 90px;
+			padding: 30px 40px;
 		}
 	}
 }
 /*---------------Afiliate---------------*/
 /*---------------Contacto---------------*/
+#contacto{
+	#banner-contacto{
+		width: 100%;
+		section{
+			margin: -250px 0 0 0;
+			h1{
+				color:white;
+				font-family: @nexaB;
+				font-size: 4em;
+				text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+			}
+			h4{
+				font-family: @nexaL;
+				color: white;
+				font-size: 2em;
+				padding-top: 30px;
+				text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+			}	
+		}
+	}
+	#formulario-contacto{
+		width: 100%;
+		height: 700px;
+		margin: 100px 0 100px 0;
+		background-image: url('../img/mail-bg.jpg');
+		background-repeat: no-repeat;
+		background-position: center top;
+		#formCont{
+			background-color: #F2F2F2;
+			padding: 50px 50px 90px 50px;
+			.rounded(10px);
+			font-family: @nexaL;
+			label{
+				font-family: @nexaL;
+			}
+			#formulario{
+			}
+		}
+	}
+}
+.btn-verde {
+	.rounded(5px) !important;
+	.transition(.2s, ease);
+	position: relative;
+	top:0;
+	margin-bottom: 30px;
+	padding:10px 90px;
+	background: @verde;
+	box-shadow: 0px 6px 0px @verdeOscuro;
+	color: white;
+	font-size: 28px;
+	font-family: @nexaB;
+	&:hover{
+		top:4px;
+		background: darken(@verde, 2%) !important;
+		box-shadow: 0px 4px 0px @verdeOscuro;
+		text-decoration: none;
+	}
+	&:active{
+		top:7px;
+		background: darken(@verde, 2%) !important;
+		box-shadow: 0px 2px 0px @verdeOscuro;
+	}
+}
+
 /*----------------SOPORTE-------------*/
 
 
 #img-soporte{
 	width: 100%;
+	height: 400px;
 	background-image: url('../img/soportebanner.jpg');
+	background-position: center top;
 	h1{
+		padding-top: 150px;
 		font-family: @nexaB;
 		color: white;
 		text-align: center;
 		font-size: 4em;
+		text-shadow: 1px 1px 2px black;
 	}
 	p{
 		font-family: @nexaL;
 		color: white;
 		text-align: center;
 		font-size: 2em;
-		text-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+		text-shadow: 1px 1px 2px black;
 	}
 	hr{
 		width: 20%;
-		color: white;
-		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35)
+		box-shadow: .1px .1px 1px black;
 	}
+	
 }
 #soporte{
+margin: 50px auto;
 	ul{
 		list-style: none;
 		color: @texto;
@@ -337,24 +429,58 @@ a.btn-afiliado {
 				font-family: @nexaB;
 				font-size: 1.5em;
 			}
+			p{
+				font-family: helvetica;
+				padding-bottom: 50px;
+				border-bottom: 1px solid @texto; 
+			}
 		}
 	}	
 	h2{
 		font-family: @nexaB;
 		color: @azul;
 		padding: 20px 20px 0px 0px;
-	}
-	hr{
-		color: @azul;
+		border-bottom: 1px solid @azul;
+		font-size:2.5em;
 	}
 }
 #sidebar{
-		margin:0px 0px 0px 75px; 
+		.rounded(10px);
+		margin:40px 0px 0px 75px; 
 		padding: 0px 25px;
-		background-color: #D7D7D7;
+		background-color: #F2F2F2;
+		box-shadow: 1px 1px 7px rgba(0,0,0,0.46);
+		h3{
+			font-family: @nexaB;
+			color: @azul;
+			border-bottom: 1px solid @azul;
+			
+		}
+		h4{
+			padding-top: 20px;
+		}
 		ul{
+			font-family: @nexaL;
+			padding-top: -20px;
 			li{
-
+				margin-bottom:-20px; 
+			}
+		}
+		#correoSoporte{
+			background-color: white;
+			.rounded(10px);
+			padding: -5px 5px 5px 5px;
+			margin: 15px 0;
+			h4{
+				text-align: center;
+				color: @h;
+			}
+			a{
+				font-family: @nexaB;
+				font-size: 1.3em;
+				padding: 3px 10px;
+				color:@azul;
+				text-decoration: none;
 			}
 		}
 		

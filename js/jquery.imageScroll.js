@@ -26,7 +26,7 @@
             holderClass: 'imageHolder',
             container: $('body'),
             speed: 0.2,
-            coverRatio: 1.25,
+            coverRatio: 1.00,
             holderMinHeight: 200,
             extraHeight: 0,
             mediaWidth: 1600,

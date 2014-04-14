@@ -75,6 +75,12 @@ footer p {
   font-family: "Nexa Bold", Helvetica, Arial;
   font-size: 4em;
 }
+#comienza h2 {
+  color: white;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  font-size: 3em;
+  text-shadow: 1px 1px 3px black;
+}
 #comienza p {
   color: black;
   font-family: "Nexa light", Helvetica, Arial;
@@ -176,9 +182,9 @@ a.btn-verde:active {
 #testimoniales {
   width: 100%;
   background-image: url('../img/forex-quote-bg.jpg');
-  background-size: 1920px;
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: 1920px;
 }
 #testimoniales h2 {
   color: white;
@@ -261,5 +267,205 @@ a.btn-afiliado:active {
 }
 /*---------------Curso---------------*/
 /*---------------Comprar---------------*/
+#comprar {
+  width: 100%;
+}
+#comprar section {
+  width: 500px;
+  margin: -800px 10% 0 40%;
+  background-color: white;
+  padding: 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+#comprar section h1 {
+  color: #136f9f;
+}
+#comprar section h4 {
+  font-family: "Nexa light", Helvetica, Arial;
+  color: #136f9f;
+}
+#comprar section h2 {
+  font-family: "Nexa light", Helvetica, Arial;
+  color: #136f9f;
+  padding-top: 30px;
+}
+#comprar section ul {
+  color: #7e7e7e;
+  font-family: Helvetica;
+  list-style: none;
+}
+#comprar section #contenido-comprar {
+  background-color: white;
+}
+#comprar section ul {
+  padding: 30px 40px;
+}
 /*---------------Afiliate---------------*/
 /*---------------Contacto---------------*/
+#contacto #banner-contacto {
+  width: 100%;
+}
+#contacto #banner-contacto section {
+  margin: -250px 0 0 0;
+}
+#contacto #banner-contacto section h1 {
+  color: white;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  font-size: 4em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+#contacto #banner-contacto section h4 {
+  font-family: "Nexa light", Helvetica, Arial;
+  color: white;
+  font-size: 2em;
+  padding-top: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+#contacto #formulario-contacto {
+  width: 100%;
+  height: 700px;
+  margin: 100px 0 100px 0;
+  background-image: url('../img/mail-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+#contacto #formulario-contacto #formCont {
+  background-color: #F2F2F2;
+  padding: 50px 50px 90px 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  font-family: "Nexa light", Helvetica, Arial;
+}
+#contacto #formulario-contacto #formCont label {
+  font-family: "Nexa light", Helvetica, Arial;
+}
+.btn-verde {
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  position: relative;
+  top: 0;
+  margin-bottom: 30px;
+  padding: 10px 90px;
+  background: #a7de57;
+  box-shadow: 0px 6px 0px #7ba53b;
+  color: white;
+  font-size: 28px;
+  font-family: "Nexa Bold", Helvetica, Arial;
+}
+.btn-verde:hover {
+  top: 4px;
+  background: #a3dc4e !important;
+  box-shadow: 0px 4px 0px #7ba53b;
+  text-decoration: none;
+}
+.btn-verde:active {
+  top: 7px;
+  background: #a3dc4e !important;
+  box-shadow: 0px 2px 0px #7ba53b;
+}
+/*----------------SOPORTE-------------*/
+#img-soporte {
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/soportebanner.jpg');
+  background-position: center top;
+}
+#img-soporte h1 {
+  padding-top: 150px;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 1px 1px 2px black;
+}
+#img-soporte p {
+  font-family: "Nexa light", Helvetica, Arial;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 1px 1px 2px black;
+}
+#img-soporte hr {
+  width: 20%;
+  box-shadow: .1px .1px 1px black;
+}
+#soporte {
+  margin: 50px auto;
+}
+#soporte ul {
+  list-style: none;
+  color: #7e7e7e;
+  text-align: justify;
+}
+#soporte ul li {
+  padding: 10px 0;
+}
+#soporte ul li h4 {
+  color: #1ca8f7;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  font-size: 1.5em;
+}
+#soporte ul li p {
+  font-family: helvetica;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #7e7e7e;
+}
+#soporte h2 {
+  font-family: "Nexa Bold", Helvetica, Arial;
+  color: #1ca8f7;
+  padding: 20px 20px 0px 0px;
+  border-bottom: 1px solid #1ca8f7;
+  font-size: 2.5em;
+}
+#sidebar {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 40px 0px 0px 75px;
+  padding: 0px 25px;
+  background-color: #F2F2F2;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.46);
+}
+#sidebar h3 {
+  font-family: "Nexa Bold", Helvetica, Arial;
+  color: #1ca8f7;
+  border-bottom: 1px solid #1ca8f7;
+}
+#sidebar h4 {
+  padding-top: 20px;
+}
+#sidebar ul {
+  font-family: "Nexa light", Helvetica, Arial;
+  padding-top: -20px;
+}
+#sidebar ul li {
+  margin-bottom: -20px;
+}
+#sidebar #correoSoporte {
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: -5px 5px 5px 5px;
+  margin: 15px 0;
+}
+#sidebar #correoSoporte h4 {
+  text-align: center;
+  color: #636363;
+}
+#sidebar #correoSoporte a {
+  font-family: "Nexa Bold", Helvetica, Arial;
+  font-size: 1.3em;
+  padding: 3px 10px;
+  color: #1ca8f7;
+  text-decoration: none;
+}
