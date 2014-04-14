@@ -282,9 +282,51 @@ a.btn-afiliado:active {
 /*---------------Afiliate---------------*/
 /*---------------Contacto---------------*/
 /*----------------SOPORTE-------------*/
+#img-soporte {
+  width: 100%;
+  background-image: url('../img/soportebanner.jpg');
+}
+#img-soporte h1 {
+  font-family: "Nexa Bold", Helvetica, Arial;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+#img-soporte p {
+  font-family: "Nexa light", Helvetica, Arial;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+#img-soporte hr {
+  width: 20%;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35);
+}
 #soporte ul {
   list-style: none;
+  color: #7e7e7e;
+  text-align: justify;
 }
-#soporte #img-soporte {
-  background-image: url('../img/soportebanner.jpg');
+#soporte ul li {
+  padding: 10px 0;
+}
+#soporte ul li h4 {
+  color: #1ca8f7;
+  font-family: "Nexa Bold", Helvetica, Arial;
+  font-size: 1.5em;
+}
+#soporte h2 {
+  font-family: "Nexa Bold", Helvetica, Arial;
+  color: #1ca8f7;
+  padding: 20px 20px 0px 0px;
+}
+#soporte hr {
+  color: #1ca8f7;
+}
+#sidebar {
+  margin: 0px 0px 0px 75px;
+  padding: 0px 25px;
+  background-color: #D7D7D7;
 }
