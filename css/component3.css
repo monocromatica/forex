@@ -1,6 +1,6 @@
 .cbp-af-header {
 	position: fixed;
-	top: -2%;
+	top: -3%;
 	left: 0;
 	width: 100%;
 	background: #fff;
@@ -127,13 +127,13 @@
 	}
 
 	.cbp-af-header.cbp-af-header-shrink nav a {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 }
 
 @media screen and (max-width: 32.25em) {
 	.cbp-af-header nav a {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 }
 
