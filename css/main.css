@@ -10,6 +10,20 @@ header #menu {
   font-size: large;
   margin-top: 40px;
 }
+header #soporAfil {
+  font-family: "Nexa light", Helvetica, Arial;
+  padding: 30px 20px 0px 20px;
+  margin: 0 80%;
+}
+header #soporAfil a {
+  padding: -10px 30px 0 30px;
+  margin: 0 10px;
+  color: #7e7e7e;
+}
+header #soporAfil a:hover {
+  text-decoration: none;
+  color: #1ca8f7;
+}
 /*---------------footer---------------*/
 footer {
   width: 100%;
@@ -56,14 +70,8 @@ footer p {
   color: #7e7e7e;
 }
 .aprende {
-  margin: 20px 0 20px 0;
-  padding: 100px 0 30px 0;
-}
-.derecha {
-  text-align: right;
-}
-.izquierda {
-  margin-left: 100px;
+  margin: -50px 0;
+  padding: -150px 0 30px 0;
 }
 #comienza {
   width: 100%;
