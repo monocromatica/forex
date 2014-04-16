@@ -20,7 +20,7 @@
 
 /* Text styling */
 .cbp-so-section h2 {
-	font-size: 5em;
+	font-size: 2em;
 	font-weight: 300;
 	line-height: 1;
 }
@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 73.5em) {
 	.cbp-so-scroller {
-		font-size: 65%;
+		font-size: 45%;
 	}
 
 	.cbp-so-section h2 {

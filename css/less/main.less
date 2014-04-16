@@ -11,7 +11,12 @@
 @texto:#7E7E7E;
 @nexaB:"Nexa Bold", Helvetica, Arial;
 @nexaL:"Nexa light", Helvetica, Arial;
-
+@large-desktop:   ~"only screen and (min-width: 1200px) and (max-width: 4000px)";
+@desktop:   ~"only screen and (min-width: 991px) and (max-width: 1199px)";
+@desktop-p:   ~"only screen and (min-width: 960px) and (max-width: 990px)";
+@tablet:    ~"only screen and (min-width: 720px) and (max-width: 959px)";
+@smartphone: ~"only screen and (min-width : 320px) and (max-width : 480px)";
+@smartphone2: ~"only screen and (min-width : 481px) and (max-width : 719px)";
 
 
 
@@ -76,7 +81,7 @@ footer{
 }
 
 #aprenderas{
-	margin-top: 500px;
+	margin-top: 400px;
 	h1{
 		color: @h;
 		text-align: center;
@@ -173,13 +178,11 @@ a.btn-azul {
 	line-height: 30%;
 }
 a.btn-verde {
-	right: -60%;
 	.rounded(5px) !important;
 	.transition(.2s, ease);
 	position: relative;
-	top:0;
-	margin-bottom: 30px;
-	padding:10px 90px;
+	margin: 0 35% 30px 30%;
+	padding:10px 12%;
 	background: @verde;
 	box-shadow: 0px 6px 0px @verdeOscuro;
 	color: white;
@@ -296,39 +299,37 @@ a.btn-afiliado {
 
 #comprar{
 	width: 100%;
-	section{
-		width: 500px;
-		margin: -800px 10% 0 40%;
-		background-color: white;
-		padding: 50px;
-		.rounded(10px);
-		box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-		h1{
-			color: @azulOscuro;
-		}
-		h4{
-			font-family: @nexaL;
-			color: @azulOscuro;
-		}
-		h2{
-			font-family: @nexaL;
-			color: @azulOscuro;
-			padding-top: 30px;
-		}
-		ul{
-			color: @texto;
-			font-family: Helvetica;
-			list-style:none;
-		}
 		#contenido-comprar{
 			background-color: white;
+			section{
+			width: 500px;
+			margin: -620px 10% 0 40%;
+			background-color: white;
+			padding: 50px;
+			.rounded(10px);
+			box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+			h1{
+				color: @azulOscuro;
+			}
+			h4{
+				font-family: @nexaL;
+				color: @azulOscuro;
+			}
+			h2{
+				font-family: @nexaL;
+				color: @azulOscuro;
+				padding-top: 30px;
+			}
+			ul{
+				color: @texto;
+				font-family: Helvetica;
+				list-style:none;
+			}
+			ul{
+				padding: 30px 40px;
+			}
 		}
-		h1{
-			
-		}
-		ul{
-			padding: 30px 40px;
-		}
+		
 	}
 }
 /*---------------Afiliate---------------*/
@@ -455,6 +456,9 @@ margin: 50px auto;
 		font-size:2.5em;
 	}
 }
+.icon-bar{
+	background-color: @azulOscuro !important;
+}
 #sidebar{
 		.rounded(10px);
 		margin:40px 0px 0px 75px; 
@@ -496,76 +500,335 @@ margin: 50px auto;
 		}
 		
 	}
+.cinco{
+	font-size:5em;
+}
 	
-@media(max-width:767px){
-	#aprenderas{
-		margin-top: 100px;
-		img{
-			width: 20%;
-			height: 10%;
+@media @large-desktop{                            
+  #aprenderas{
+		margin-top: 400px;
+		p{
+			font-size: 1.5em;
 		}
 	}
-}
-
-@media(min-width:768px){
-	#aprenderas{
-		margin-top: 150px;
-		img{
-			width: 40%;
-			height: 40%;
-		}
-	}
-}
-
-@media(min-width:992px){
-	#aprenderas{
-		section{
-			p{
-				font-size: 1.5em;
+	#contenido-comprar{
+			section{
+				margin: -1000px 10% auto -40%;
 			}
 		}
+	#menu{
+		float: right;
 	}
-	#conoce{
-		margin: 0 10px 0 -50px;
-		padding: 0;
+}  
+
+
+@media @desktop{
+	#menu{
+		float: right;
 	}
-	a.btn-verde {
-	right: -30%;
-	.rounded(5px) !important;
-	.transition(.2s, ease);
-	position: relative;
-	top:0;
-	margin-bottom: 30px;
-	padding:10px 50px;
-	background: @verde;
-	box-shadow: 0px 6px 0px @verdeOscuro;
-	color: white;
-	font-size: 28px;
-	font-family: @nexaB;
-	&:hover{
-		top:4px;
-		background: darken(@verde, 2%) !important;
-		box-shadow: 0px 4px 0px @verdeOscuro;
-		text-decoration: none;
+	#aprenderas{
+		margin-top: 400px;
+		p{
+			font-size: 2.5em;
+		}
 	}
-	&:active{
-		top:7px;
-		background: darken(@verde, 2%) !important;
-		box-shadow: 0px 2px 0px @verdeOscuro;
+	#banner-contacto{
+		section{
+			padding-top: 50px;
+		}
 	}
-}
-	#contacto{
-		#banner-contacto{
+	#comprar{
+		#contenido-comprar{
 			section{
-			margin: -250px 0 0 0;
+				height: 350px;
+				margin :-400px 0 0 220px;
 				h1{
-					font-size: 4em;
+				font-size: 3em;
+				}
+				h4{
+					font-size: 2em;
+				}
+				h2{
+					margin-top: -20px;
+					font-size: 2.5em;
+				}
+				ul{
+					display: none;
 				}
 			}
 		}
 	}
 }
 
-@media(min-width:1200px){
-	
+@media @desktop-p{
+	#menu{
+		float: right;
+		top: -150px;
+		margin-right: -4%;
+	}
+	#aprenderas{
+		margin-top: 200px;
+		p{
+			font-size: 1.5em;
+		}
+	}
 }
+
+@media @tablet{
+	header{
+			img{
+				width: 50%;
+			}
+		}
+	#slide{
+		margin-top: 100px;
+	}
+	#aprenderas{
+		margin-top: 100px;
+		p{
+			font-size: 2.3em;
+		}
+	}
+	#otromenu{
+		top: -300px;
+		width: 50%;
+		#menu{
+			top: -100px;
+			float: right;
+			font-size: 1em;
+			padding: 0 -10px;
+			margin-top: -50px;
+		}
+	}
+	
+	#comprar{
+		#contenido-comprar{
+			section{
+				width: 500px;
+				height: 350px;
+				margin :-400px 0 0 80px;
+				h1{
+				font-size: 2em;
+				}
+				h4{
+					font-size: 1em;
+				}
+				h2{
+					margin-top: -20px;
+					font-size: 1.5em;
+				}
+				ul{
+					display: none;
+				}
+			}
+		}
+	}
+	#beneficios{
+		#mac{
+			display: none;
+		}
+	}
+	#tresimagenes{
+		img{
+			margin: 0 25%;
+		}
+	}
+	#banner-contacto{
+		section{
+			padding-top: 50px;
+		}
+	}
+	#franjaAzul{
+		h2{
+			text-align: center;
+		}
+		p{
+			margin: 0 30%;
+		}
+		#btn-af{
+			margin: 0 30%;
+		}
+	}
+}
+
+@media @smartphone2{
+	#slide{
+		margin-top:25%;
+	}
+	#aprenderas{
+		margin-top: 100px;
+		p{
+			font-size: 2.5em;
+		}
+		section{
+			img{
+				top:-100px;
+			}
+		}
+	}
+	#otromenu{
+		top: -300px;
+		width: 50%;
+		#menu{
+			top: -100px;
+			float: right;
+			font-size: 1em;
+			padding: 0 -10px;
+			margin-top: -50px;
+		}
+	}
+	
+	header{
+		img{
+			width: 50%;
+		}
+	}
+	#comprar{
+		#contenido-comprar{
+			section{
+				width: 300px;
+				height: 300px;
+				margin :-400px 0 0 80px;
+				h1{
+				font-size: 2em;
+				}
+				h4{
+					font-size: 1em;
+				}
+				h2{
+					margin-top: -20px;
+					font-size: 1.5em;
+				}
+				ul{
+					display: none;
+				}
+			}
+		}
+	}
+	#beneficios{
+		#mac{
+			display: none;
+		}
+	}
+	#tresimagenes{
+		img{
+			margin: 0 15%;
+		}
+	}
+	#banner-contacto{
+		section{
+			padding-top: 50px;
+		}
+	}
+	#franjaAzul{
+		h2{
+			text-align: center;
+		}
+		p{
+			margin: 0 30%;
+		}
+		#btn-af{
+			margin: 0 30%;
+		}
+	}
+}
+
+@media @smartphone{
+	#slide{
+		margin-top:35%;
+	}
+	#aprenderas{
+		margin-top: 100px;
+		p{
+			font-size: 2em;
+		}
+		section{
+			img{
+				top:-100px;
+			}
+		}
+	}
+	#otromenu{
+		top: -300px;
+		width: 50%;
+		#menu{
+			top: -100px;
+			float: right;
+			font-size: 1em;
+			padding: 0 -10px;
+			margin-top: -50px;
+		}
+	}
+	
+	header{
+		img{
+			width: 50%;
+		}
+	}
+	#comprar{
+		#contenido-comprar{
+			section{
+				width: 300px;
+				height: 300px;
+				margin :-400px 0 0 50px;
+				h1{
+				font-size: 2em;
+				}
+				h4{
+					font-size: 1em;
+				}
+				h2{
+					margin-top: -20px;
+					font-size: 1.5em;
+				}
+				ul{
+					display: none;
+				}
+			}
+		}
+	}
+	#beneficios{
+		#mac{
+			display: none;
+		}
+		h1{
+			font-size:3em;
+		}
+	}
+	#tresimagenes{
+		img{
+			margin: 0 15%;
+		}
+	}
+	#contacto{
+		#banner-contacto{
+			section{
+				padding-top: 50px;
+				h1{
+					font-size: 3em;
+				}
+				h4{
+					font-size: 2em;
+				}
+			}
+		}
+		#formulario-contacto{
+			#formCont {
+				margin-bottom: 80px;
+			}
+		}
+	}
+	#franjaAzul{
+		h2{
+			text-align: center;
+		}
+		p{
+			margin: 0 30%;
+		}
+		#btn-af{
+			margin: 0 30%;
+		}
+	}
+}
+
+

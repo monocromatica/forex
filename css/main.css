@@ -56,7 +56,7 @@ footer p {
   color: #7e7e7e;
 }
 #aprenderas {
-  margin-top: 500px;
+  margin-top: 400px;
 }
 #aprenderas h1 {
   color: #636363;
@@ -152,7 +152,6 @@ a.btn-azul:active {
   line-height: 30%;
 }
 a.btn-verde {
-  right: -60%;
   -webkit-border-radius: 5px !important;
   -moz-border-radius: 5px !important;
   border-radius: 5px !important;
@@ -161,9 +160,8 @@ a.btn-verde {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
   position: relative;
-  top: 0;
-  margin-bottom: 30px;
-  padding: 10px 90px;
+  margin: 0 35% 30px 30%;
+  padding: 10px 12%;
   background: #a7de57;
   box-shadow: 0px 6px 0px #7ba53b;
   color: white;
@@ -278,9 +276,12 @@ a.btn-afiliado:active {
 #comprar {
   width: 100%;
 }
-#comprar section {
+#comprar #contenido-comprar {
+  background-color: white;
+}
+#comprar #contenido-comprar section {
   width: 500px;
-  margin: -800px 10% 0 40%;
+  margin: -620px 10% 0 40%;
   background-color: white;
   padding: 50px;
   -webkit-border-radius: 10px;
@@ -288,27 +289,24 @@ a.btn-afiliado:active {
   border-radius: 10px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
-#comprar section h1 {
+#comprar #contenido-comprar section h1 {
   color: #136f9f;
 }
-#comprar section h4 {
+#comprar #contenido-comprar section h4 {
   font-family: "Nexa light", Helvetica, Arial;
   color: #136f9f;
 }
-#comprar section h2 {
+#comprar #contenido-comprar section h2 {
   font-family: "Nexa light", Helvetica, Arial;
   color: #136f9f;
   padding-top: 30px;
 }
-#comprar section ul {
+#comprar #contenido-comprar section ul {
   color: #7e7e7e;
   font-family: Helvetica;
   list-style: none;
 }
-#comprar section #contenido-comprar {
-  background-color: white;
-}
-#comprar section ul {
+#comprar #contenido-comprar section ul {
   padding: 30px 40px;
 }
 /*---------------Afiliate---------------*/
@@ -434,6 +432,9 @@ a.btn-afiliado:active {
   border-bottom: 1px solid #1ca8f7;
   font-size: 2.5em;
 }
+.icon-bar {
+  background-color: #136f9f !important;
+}
 #sidebar {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -477,66 +478,265 @@ a.btn-afiliado:active {
   color: #1ca8f7;
   text-decoration: none;
 }
-@media (max-width: 767px) {
+.cinco {
+  font-size: 5em;
+}
+@media only screen and (min-width: 1200px) and (max-width: 4000px) {
+  #aprenderas {
+    margin-top: 400px;
+  }
+  #aprenderas p {
+    font-size: 1.5em;
+  }
+  #contenido-comprar section {
+    margin: -1000px 10% auto -40%;
+  }
+  #menu {
+    float: right;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  #menu {
+    float: right;
+  }
+  #aprenderas {
+    margin-top: 400px;
+  }
+  #aprenderas p {
+    font-size: 2.5em;
+  }
+  #banner-contacto section {
+    padding-top: 50px;
+  }
+  #comprar #contenido-comprar section {
+    height: 350px;
+    margin: -400px 0 0 220px;
+  }
+  #comprar #contenido-comprar section h1 {
+    font-size: 3em;
+  }
+  #comprar #contenido-comprar section h4 {
+    font-size: 2em;
+  }
+  #comprar #contenido-comprar section h2 {
+    margin-top: -20px;
+    font-size: 2.5em;
+  }
+  #comprar #contenido-comprar section ul {
+    display: none;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 990px) {
+  #menu {
+    float: right;
+    top: -150px;
+    margin-right: -4%;
+  }
+  #aprenderas {
+    margin-top: 200px;
+  }
+  #aprenderas p {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+  header img {
+    width: 50%;
+  }
+  #slide {
+    margin-top: 100px;
+  }
   #aprenderas {
     margin-top: 100px;
   }
-  #aprenderas img {
-    width: 20%;
-    height: 10%;
+  #aprenderas p {
+    font-size: 2.3em;
   }
-}
-@media (min-width: 768px) {
-  #aprenderas {
-    margin-top: 150px;
+  #otromenu {
+    top: -300px;
+    width: 50%;
   }
-  #aprenderas img {
-    width: 40%;
-    height: 40%;
+  #otromenu #menu {
+    top: -100px;
+    float: right;
+    font-size: 1em;
+    padding: 0 -10px;
+    margin-top: -50px;
   }
-}
-@media (min-width: 992px) {
-  #aprenderas section p {
+  #comprar #contenido-comprar section {
+    width: 500px;
+    height: 350px;
+    margin: -400px 0 0 80px;
+  }
+  #comprar #contenido-comprar section h1 {
+    font-size: 2em;
+  }
+  #comprar #contenido-comprar section h4 {
+    font-size: 1em;
+  }
+  #comprar #contenido-comprar section h2 {
+    margin-top: -20px;
     font-size: 1.5em;
   }
-  #conoce {
-    margin: 0 10px 0 -50px;
-    padding: 0;
+  #comprar #contenido-comprar section ul {
+    display: none;
   }
-  a.btn-verde {
-    right: -30%;
-    -webkit-border-radius: 5px !important;
-    -moz-border-radius: 5px !important;
-    border-radius: 5px !important;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-    position: relative;
-    top: 0;
-    margin-bottom: 30px;
-    padding: 10px 50px;
-    background: #a7de57;
-    box-shadow: 0px 6px 0px #7ba53b;
-    color: white;
-    font-size: 28px;
-    font-family: "Nexa Bold", Helvetica, Arial;
+  #beneficios #mac {
+    display: none;
   }
-  a.btn-verde:hover {
-    top: 4px;
-    background: #a3dc4e !important;
-    box-shadow: 0px 4px 0px #7ba53b;
-    text-decoration: none;
+  #tresimagenes img {
+    margin: 0 25%;
   }
-  a.btn-verde:active {
-    top: 7px;
-    background: #a3dc4e !important;
-    box-shadow: 0px 2px 0px #7ba53b;
+  #banner-contacto section {
+    padding-top: 50px;
+  }
+  #franjaAzul h2 {
+    text-align: center;
+  }
+  #franjaAzul p {
+    margin: 0 30%;
+  }
+  #franjaAzul #btn-af {
+    margin: 0 30%;
+  }
+}
+@media only screen and (min-width : 481px) and (max-width : 719px) {
+  #slide {
+    margin-top: 25%;
+  }
+  #aprenderas {
+    margin-top: 100px;
+  }
+  #aprenderas p {
+    font-size: 2.5em;
+  }
+  #aprenderas section img {
+    top: -100px;
+  }
+  #otromenu {
+    top: -300px;
+    width: 50%;
+  }
+  #otromenu #menu {
+    top: -100px;
+    float: right;
+    font-size: 1em;
+    padding: 0 -10px;
+    margin-top: -50px;
+  }
+  header img {
+    width: 50%;
+  }
+  #comprar #contenido-comprar section {
+    width: 300px;
+    height: 300px;
+    margin: -400px 0 0 80px;
+  }
+  #comprar #contenido-comprar section h1 {
+    font-size: 2em;
+  }
+  #comprar #contenido-comprar section h4 {
+    font-size: 1em;
+  }
+  #comprar #contenido-comprar section h2 {
+    margin-top: -20px;
+    font-size: 1.5em;
+  }
+  #comprar #contenido-comprar section ul {
+    display: none;
+  }
+  #beneficios #mac {
+    display: none;
+  }
+  #tresimagenes img {
+    margin: 0 15%;
+  }
+  #banner-contacto section {
+    padding-top: 50px;
+  }
+  #franjaAzul h2 {
+    text-align: center;
+  }
+  #franjaAzul p {
+    margin: 0 30%;
+  }
+  #franjaAzul #btn-af {
+    margin: 0 30%;
+  }
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  #slide {
+    margin-top: 35%;
+  }
+  #aprenderas {
+    margin-top: 100px;
+  }
+  #aprenderas p {
+    font-size: 2em;
+  }
+  #aprenderas section img {
+    top: -100px;
+  }
+  #otromenu {
+    top: -300px;
+    width: 50%;
+  }
+  #otromenu #menu {
+    top: -100px;
+    float: right;
+    font-size: 1em;
+    padding: 0 -10px;
+    margin-top: -50px;
+  }
+  header img {
+    width: 50%;
+  }
+  #comprar #contenido-comprar section {
+    width: 300px;
+    height: 300px;
+    margin: -400px 0 0 50px;
+  }
+  #comprar #contenido-comprar section h1 {
+    font-size: 2em;
+  }
+  #comprar #contenido-comprar section h4 {
+    font-size: 1em;
+  }
+  #comprar #contenido-comprar section h2 {
+    margin-top: -20px;
+    font-size: 1.5em;
+  }
+  #comprar #contenido-comprar section ul {
+    display: none;
+  }
+  #beneficios #mac {
+    display: none;
+  }
+  #beneficios h1 {
+    font-size: 3em;
+  }
+  #tresimagenes img {
+    margin: 0 15%;
   }
   #contacto #banner-contacto section {
-    margin: -250px 0 0 0;
+    padding-top: 50px;
   }
   #contacto #banner-contacto section h1 {
-    font-size: 4em;
+    font-size: 3em;
+  }
+  #contacto #banner-contacto section h4 {
+    font-size: 2em;
+  }
+  #contacto #formulario-contacto #formCont {
+    margin-bottom: 80px;
+  }
+  #franjaAzul h2 {
+    text-align: center;
+  }
+  #franjaAzul p {
+    margin: 0 30%;
+  }
+  #franjaAzul #btn-af {
+    margin: 0 30%;
   }
 }

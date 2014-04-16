@@ -26,7 +26,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header class="cbp-af-header">
+	<!--<header class="cbp-af-header">
 	    <div class="container cbp-af-inner">
 				<div class="row">
 					<div class="col-md-12 col-md-offset-8" id="soporAfil">
@@ -40,19 +40,48 @@
 					</div>
 					<div class="col-md-8">
 						<div class="row">
-							<div id="menu" class="col-md-12">
-								<ul class="nav nav-pills pull-right">
-									<li><a href="#slide" rel="m_PageScroll2id">Inicio</a></li>
-									<li><a href="#ElCurso" rel="m_PageScroll2id">El curso</a></li>
-									<li><a href="#comprarCurso" rel="m_PageScroll2id">Comprar</a></li>
-									<li><a href="#AfiliateYa" rel="m_PageScroll2id">Afiliate</a></li>
-									<li><a href="#Contactanos" rel="m_PageScroll2id">Contacto</a></li>
+							<div class="col-md-12" id="otromenu">
+								<ul id="menu" class="nav nav-pills pull-right">
+									<li><a href="index.html">Inicio</a></li>
+									<li><a href="index.html #ElCurso">El curso</a></li>
+									<li><a href="comprar.html">Comprar</a></li>
+									<li><a href="afiliate.html">Afiliate</a></li>
+									<li><a href="contacto.html">Contacto</a></li>
 								</ul>
-							</div><!-- /#menu -->
+							</div>
 						</div>
 					</div>
-				</div><!-- /.row -->
-			</div><!-- /.container -->
+				</div>
+			</div>
+    </header>-->
+    <header class="cbp-af-header">
+    
+		<div class="navbar cbp-af-inner navbar-static-top">
+			<div class="container">
+				<div class="col-md-12 col-md-offset-8" id="soporAfil">
+					<a href="soporte.html">Soporte</a>
+					<a href="#">Afiliados</a>
+				</div>
+				<a href="index.html" class="navbar-brand"><img class="img-responsive" src="img/logotipo.jpg" alt="Logotipo Forex" /></a>
+				
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse nav-pills">
+					<ul class="nav navbar-nav navbar-right" id="menu">
+						<li><a href="#slide" rel="m_PageScroll2id">Inicio</a></li>
+						<li><a href="#ElCurso" rel="m_PageScroll2id">El curso</a></li>
+						<li><a href="#comprarCurso" rel="m_PageScroll2id">Comprar</a></li>
+						<li><a href="#AfiliateYa" rel="m_PageScroll2id">Afiliate</a></li>
+						<li><a href="#Contactanos" rel="m_PageScroll2id">Contacto</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>    
+	    
     </header>
 
     <div class="container" id="slide">
@@ -72,7 +101,7 @@
     		</div>
     	</div>
     </div>
-    <div class="container">
+    <div class="container" id="tresimagenes">
     	<div class="row">
     		<div class="col-md-4">
     			<img class="img-responsive" src="img/forex-curso.jpg" alt="Forex-curso" />
@@ -99,16 +128,16 @@
 							<h3>&iquest;Qu&eacute; es Forex?</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, delectus, at quibusdam consequuntur quam asperiores temporibus sapiente ad minima nihil aut fugiat facilis quaerat molestiae accusantium accusamus beatae quos.</p>
 						</div>
-						<div class="col-md-6">
-							<img class="img-responsive cbp-so-side cbp-so-side-right" src="img/forex-que-es.png" alt="Que es Forex" />
+						<div class="col-md-6 cbp-so-side cbp-so-side-right">
+							<img class="img-responsive" src="img/forex-que-es.png" alt="Que es Forex" />
 						</div>
 					</div>
 				</section>
 				
 				<section class="cbp-so-section">
 					<div class="aprende col-md-12" id="como-funciona">
-						<div class="col-md-6">
-							<img class="img-responsive cbp-so-side cbp-so-side-left" src="img/forex-como-funciona.png" alt="Como funciona" />
+						<div class="col-md-6 cbp-so-side cbp-so-side-left">
+							<img class="img-responsive" src="img/forex-como-funciona.png" alt="Como funciona" />
 						</div>
 						<div class="col-md-6 cbp-so-side cbp-so-side-right">
 							<h3>&iquest;C&oacute;mo funciona?</h3>
@@ -123,18 +152,18 @@
 							<h3>A aprovecharlo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, delectus, at quibusdam consequuntur quam asperiores temporibus sapiente ad minima nihil aut fugiat facilis quaerat molestiae accusantium accusamus beatae quos.</p>
 						</div>
-						<div class="col-md-6 col-md-6">
-							<img class="img-responsive cbp-so-side cbp-so-side-right" src="img/forex-aprovecharlo.png" alt="Aprovecharlo" />
+						<div class="col-md-6  cbp-so-side cbp-so-side-right">
+							<img class="img-responsive" src="img/forex-aprovecharlo.png" alt="Aprovecharlo" />
 						</div>	
 					</div>
 				</section>
 
 				<section class="cbp-so-section">
 					<div class="aprende col-md-12" id="beneficiarte">
-						<div class="col-md-6 col-md-6">
-							<img class="img-responsive cbp-so-side cbp-so-side-left" src="img/forex-beneficios.png" alt="Beneficiarte" />
+						<div class="col-md-6 cbp-so-side cbp-so-side-left">
+							<img class="img-responsive" src="img/forex-beneficios.png" alt="Beneficiarte" />
 						</div>
-						<div class="col-md-6 col-md-6 cbp-so-side cbp-so-side-right">
+						<div class="col-md-6 cbp-so-side cbp-so-side-right">
 							<h3>Beneficiarte</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, delectus, at quibusdam consequuntur quam asperiores temporibus sapiente ad minima nihil aut fugiat facilis quaerat molestiae accusantium accusamus beatae quos.</p>
 						</div>				
@@ -189,7 +218,7 @@
 						<img  src="img/forex-macbook.jpg" alt="Forex macbook" />
 					</div>	 
 					<div class="col-md-6" id="encabezados">
-						<h1 class="light">CONOCE LOS</h1><h1 class="centrado" style="font-size:5em;">BENEFICIOS</h1><h1 class="light">DE AFILIARTE</h1>
+						<h1 class="light">CONOCE LOS</h1><h1 class="centrado cinco">BENEFICIOS</h1><h1 class="light">DE AFILIARTE</h1>
 						<p class="jOscuro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, explicabo, minima tempore quod aperiam facilis aliquam maxime eos quo veritatis optio illum soluta perspiciatis. Quasi, incidunt illo ipsum ipsam placeat.</p>
 						<div class="row">
 							<div class="col-md-12">
@@ -374,6 +403,12 @@
 		<script src="js/classie.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script type="text/javascript">
+			$(document).ready(function(){
+				$('#menu').slicknav();
+			});
+		</script>
         <script src="js/jquery.malihu.PageScroll2id.js"></script>
 		<script>
 			(function($){
