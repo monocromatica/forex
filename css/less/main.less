@@ -220,6 +220,7 @@ a.btn-verde {
 		padding: 40px 0 15px 3%;
 	}
 	span{
+		margin-right: 30px;
 		float: right;
 		color: @azulOscuro;
 	}
@@ -521,7 +522,6 @@ margin: 50px auto;
 	}
 }  
 
-
 @media @desktop{
 	#menu{
 		float: right;
@@ -529,7 +529,7 @@ margin: 50px auto;
 	#aprenderas{
 		margin-top: 400px;
 		p{
-			font-size: 2.5em;
+			font-size: 1.5em;
 		}
 	}
 	#banner-contacto{
@@ -561,15 +561,52 @@ margin: 50px auto;
 }
 
 @media @desktop-p{
+	header{
+			img{
+				width: 70%;
+			}
+		}
 	#menu{
-		float: right;
-		top: -150px;
-		margin-right: -4%;
+		margin: -60px 30px 60px 300px;
+		z-index: 10000;
+		position: absolute;
+		li{
+			padding-top: -300px;
+		}
 	}
 	#aprenderas{
 		margin-top: 200px;
 		p{
-			font-size: 1.5em;
+			font-size: 2em;
+		}
+	}
+	#tresimagenes{
+		img{
+			margin: 0 30%;
+		}
+	}
+	#comprar{
+		#contenido-comprar{
+			section{
+				position: absolute;
+				margin: -88% 20%;
+			}
+		}
+	}
+	#beneficios{
+		#mac{
+			display: none;
+		}
+	}
+	#franjaAzul{
+		h2{
+			text-align: center;
+		}
+		p{
+			margin: 0 30%;
+		}
+		#btn-af{
+			margin: 0 30%;
 		}
 	}
 }
@@ -581,7 +618,7 @@ margin: 50px auto;
 			}
 		}
 	#slide{
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	#aprenderas{
 		margin-top: 100px;
@@ -705,16 +742,17 @@ margin: 50px auto;
 			}
 		}
 	}
+	#tresimagenes{
+		img{
+			margin-left: 5%;
+		}
+	}
 	#beneficios{
 		#mac{
 			display: none;
 		}
 	}
-	#tresimagenes{
-		img{
-			margin: 0 15%;
-		}
-	}
+	
 	#banner-contacto{
 		section{
 			padding-top: 50px;

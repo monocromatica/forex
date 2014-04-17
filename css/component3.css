@@ -94,7 +94,7 @@
 }
 
 /* Example Media Queries */
-@media screen and (max-width: 55em) {
+/*@media screen and (max-width: 55em) {
 	
 	.cbp-af-header .cbp-af-inner {
 		width: 100%;
@@ -142,4 +142,71 @@
 	.cbp-af-header.cbp-af-header-shrink nav a {
 		line-height: 1;
 	}
+}*/
+
+@media screen and (min-width: 960px) and (max-width: 990px){
+	.cbp-af-header {
+		position: fixed;
+		top: -5%;
+		left: 0;
+		width: 100%;
+		background: #fff;
+		z-index: 10000;
+		height: 140px;
+		overflow: hidden;
+		-webkit-transition: height 0.3s;
+		-moz-transition: height 0.3s;
+		transition: height 0.3s;
+	}
+	
+	.cbp-af-header .cbp-af-inner #soporAfil {
+	width: 90%;
+	max-width: 69em;
+	margin: -20px auto;
+	padding: 0 1.875em;
+}
+
+	.cbp-af-header .cbp-af-inner #soporAfil {
+		margin: 20px 0 0 500px;
+	}
+	.cbp-af-header.cbp-af-header-shrink a{
+		-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			transition: all 0.3s;
+			margin-top: -10px;
+		}
+	
+
+}
+@media screen and (min-width: 720px) and (max-width: 959px){
+	.cbp-af-header {
+		position: fixed;
+		top: 1%;
+		left: 0;
+		width: 100%;
+		background: #fff;
+		z-index: 10000;
+		height: 80px;
+		overflow: hidden;
+		-webkit-transition: height 0.3s;
+		-moz-transition: height 0.3s;
+		transition: height 0.3s;
+	}
+	
+	.cbp-af-header .cbp-af-inner #soporAfil {
+	width: 90%;
+	max-width: 69em;
+	margin: 5px auto;
+	padding: 0 1.875em;
+}
+
+	.cbp-af-header .cbp-af-inner #soporAfil {
+		margin: 20px 0 0 400px;
+	}
+	.cbp-af-header.cbp-af-header-shrink a{
+		-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			transition: all 0.3s;
+			margin-top: 10px;
+		}
 }
