@@ -93,59 +93,126 @@
 	font-size: 2em;
 }
 
-/* Example Media Queries */
-/*@media screen and (max-width: 55em) {
-	
-	.cbp-af-header .cbp-af-inner {
-		width: 100%;
-	}
 
-	.cbp-af-header h1,
-	.cbp-af-header nav {
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-		float: none;
-	}
-
-	.cbp-af-header h1,
-	.cbp-af-header nav a {
-		line-height: 115px;
-	}
-
-	.cbp-af-header nav a {
-		margin: 0 10px;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink h1,
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 45px;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink h1 {
-		font-size: 2em;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		font-size: 1.5em;
-	}
-}
-
-@media screen and (max-width: 32.25em) {
-	.cbp-af-header nav a {
-		font-size: 1.5em;
-	}
-}
-
-@media screen and (max-width: 24em) {
-	.cbp-af-header nav a,
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 1;
-	}
-}*/
-
-@media screen and (min-width: 960px) and (max-width: 990px){
+@media screen and (min-width: 1920px) and (max-width: 4000px){
 	.cbp-af-header {
+		position: fixed;
+		top: -2.5%;
+		left: 0;
+		width: 100%;
+		background: #fff;
+		z-index: 10000;
+		height: 150px;
+		overflow: hidden;
+		-webkit-transition: height 0.3s;
+		-moz-transition: height 0.3s;
+		transition: height 0.3s;
+	}
+	
+	.cbp-af-header .cbp-af-inner #soporAfil {
+	width: 90%;
+	max-width: 69em;
+	margin: 5px auto;
+	padding: 0 1.875em;
+}
+
+	.cbp-af-header .cbp-af-inner {
+		width: 90%;
+		max-width: 69em;
+		margin: 10px auto;
+		padding: 0 1.875em;
+	}
+
+	.cbp-af-header .cbp-af-inner #soporAfil {
+		margin: 10px 0 0 760px;
+		img{
+			width: 70%;
+		}
+	}
+
+		.cbp-af-header.cbp-af-header-shrink img {
+			width: 60%;
+			padding-top: 10%;
+		}
+		
+		.cbp-af-header.cbp-af-header-shrink ul {
+			padding-top: 5px;
+			width: 60%;
+		}
+
+		.cbp-af-header.cbp-af-header-shrink {
+			height: 100px;
+			box-shadow: 1px 1px 4px rgba(0,0,0,0.38);
+		}
+		
+		.cbp-af-header.cbp-af-header-shrink ul li{
+		-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			transition: all 0.3s; 
+			padding-top: 4%;
+			padding-bottom: 3%;
+		}
+		
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px){
+	.cbp-af-header {
+		position: fixed;
+		top: -2.5%;
+		left: 0;
+		width: 100%;
+		background: #fff;
+		z-index: 10000;
+		height: 150px;
+		overflow: hidden;
+		-webkit-transition: height 0.3s;
+		-moz-transition: height 0.3s;
+		transition: height 0.3s;
+	}
+	
+	.cbp-af-header .cbp-af-inner #soporAfil {
+	width: 90%;
+	max-width: 69em;
+	margin: 5px auto;
+	padding: 0 1.875em;
+}
+
+	.cbp-af-header .cbp-af-inner {
+		width: 90%;
+		max-width: 69em;
+		margin: 10px auto;
+		padding: 0 1.875em;
+	}
+
+	.cbp-af-header .cbp-af-inner #soporAfil {
+		margin: 10px 0 0 760px;
+	}
+
+		.cbp-af-header.cbp-af-header-shrink img {
+			width: 60%;
+			padding-top: 2%;
+		}
+		
+		.cbp-af-header.cbp-af-header-shrink ul {
+			padding-top: 5px;
+			width: 60%;
+		}
+
+		.cbp-af-header.cbp-af-header-shrink {
+			height: 80px;
+			box-shadow: 1px 1px 4px rgba(0,0,0,0.38);
+		}
+		
+		.cbp-af-header.cbp-af-header-shrink ul li{
+		-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			transition: all 0.3s; 
+			padding-top: .5%;
+			padding-bottom: 3%;
+		}
+		
+}
+@media screen and (min-width: 960px) and (max-width: 990px){
+	cbp-af-header {
 		position: fixed;
 		top: -5%;
 		left: 0;
@@ -181,7 +248,7 @@
 @media screen and (min-width: 720px) and (max-width: 959px){
 	.cbp-af-header {
 		position: fixed;
-		top: 1%;
+		top: -2%;
 		left: 0;
 		width: 100%;
 		background: #fff;
@@ -198,15 +265,28 @@
 	max-width: 69em;
 	margin: 5px auto;
 	padding: 0 1.875em;
-}
+	}
+
+	.cbp-af-header .cbp-af-inner {
+		width: 90%;
+		max-width: 69em;
+		margin: -25px auto;
+		padding: 0 1.875em;
+	}
 
 	.cbp-af-header .cbp-af-inner #soporAfil {
-		margin: 20px 0 0 400px;
+		margin: 50px 0 0 400px;
 	}
 	.cbp-af-header.cbp-af-header-shrink a{
 		-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
 			transition: all 0.3s;
-			margin-top: 10px;
+			margin-top: -5px;
 		}
+		.cbp-af-header.cbp-af-header-shrink {
+		height: 5%;
+		box-shadow: 1px 1px 4px rgba(0,0,0,0.38);
+		padding-bottom: 20px;
+		
+	}
 }

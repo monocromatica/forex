@@ -5,10 +5,11 @@ header {
   height: 100px;
   margin: 15px 0;
 }
-header #menu {
+header ul {
   font-family: "Nexa light", Helvetica, Arial;
   font-size: large;
-  margin-top: 40px;
+  margin-top: 80px;
+  padding-top: 50px;
 }
 header #soporAfil {
   font-family: "Nexa light", Helvetica, Arial;
@@ -492,19 +493,25 @@ a.btn-afiliado:active {
   #contenido-comprar section {
     margin: -1000px 10% auto -40%;
   }
-  #menu {
-    float: right;
-  }
 }
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
-  #menu {
-    float: right;
+  header img {
+    width: 80%;
+  }
+  header ul {
+    position: relative;
+    z-index: 1000px;
+    padding-top: 20px;
+  }
+  header ul li {
+    padding-right: -10px;
+    margin-right: 20px;
   }
   #aprenderas {
     margin-top: 400px;
   }
   #aprenderas p {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   #banner-contacto section {
     padding-top: 50px;
@@ -529,7 +536,16 @@ a.btn-afiliado:active {
 }
 @media only screen and (min-width: 960px) and (max-width: 990px) {
   header img {
-    width: 70%;
+    width: 40%;
+  }
+  header ul {
+    float: right;
+    position: absolute;
+    z-index: 1000px;
+    margin-left: 400px;
+  }
+  header ul li {
+    padding-bottom: 10px;
   }
   #menu {
     margin: -60px 30px 60px 300px;
@@ -566,8 +582,17 @@ a.btn-afiliado:active {
   }
 }
 @media only screen and (min-width: 720px) and (max-width: 959px) {
+  header #sporAfil {
+    margin-top: 100px;
+  }
   header img {
+    margin-top: -30px;
     width: 50%;
+  }
+  header ul {
+    position: absolute;
+    top: 3%;
+    left: 32%;
   }
   #slide {
     margin-top: 50px;
@@ -577,17 +602,6 @@ a.btn-afiliado:active {
   }
   #aprenderas p {
     font-size: 2.3em;
-  }
-  #otromenu {
-    top: -300px;
-    width: 50%;
-  }
-  #otromenu #menu {
-    top: -100px;
-    float: right;
-    font-size: 1em;
-    padding: 0 -10px;
-    margin-top: -50px;
   }
   #comprar #contenido-comprar section {
     width: 500px;
