@@ -71,6 +71,7 @@
 
 /* Initial state (hidden or anything else) */
 .cbp-so-init .cbp-so-side {
+	margin-top: -30px;
 	opacity: 0;
 }
 
