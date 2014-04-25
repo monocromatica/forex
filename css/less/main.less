@@ -2,7 +2,6 @@
 
 
 /*--------------variables-------------*/
-
 @azul:#1CA8F7;
 @verde:#A7DE57;
 @azulOscuro:#136F9F;
@@ -12,41 +11,57 @@
 @nexaB:"Nexa Bold", Helvetica, Arial;
 @nexaL:"Nexa light", Helvetica, Arial;
 @large-desktop:   ~"only screen and (min-width: 1200px) and (max-width: 4000px)";
-@desktop:   ~"only screen and (min-width: 991px) and (max-width: 1199px)";
-@desktop-p:   ~"only screen and (min-width: 960px) and (max-width: 990px)";
+@desktop:   ~"only screen and (min-width: 960px) and (max-width: 1199px)";
 @tablet:    ~"only screen and (min-width: 720px) and (max-width: 959px)";
 @smartphone: ~"only screen and (min-width : 320px) and (max-width : 480px)";
-@smartphone2: ~"only screen and (min-width : 481px) and (max-width : 719px)";
-
-
 
 
 /*--------------header---------------*/
-header{
-	width: 100%;
-	height: 100px;
-	margin: 15px 0;
-	ul{
-		font-family: @nexaL;
-		font-size: large;
-		margin-top: 80px;
-		padding-top: 50px; 
-	}
-	#soporAfil{
-		font-family: @nexaL;
-		padding: 30px 20px 0px 20px;
-		margin: 0 80%;
-		
-		a{
-			padding: -10px 30px 0 30px;
-			margin: 0 10px;
-			color: @texto;
-			&:hover{
-				text-decoration: none;
-				color: @azul;
+header {
+	background: white;
+	padding: 5px 0 20px 0;
+	font-family: @nexaL;
+	height: 120px;
+	#menuAf{
+		margin-top: 5px;
+		font-size: 12px;
+		a {
+			color: @h;
+			.transition(.2s, ease-out);
+			margin-right: 20px;
+			text-decoration: none;
+			a:hover {
+				color: lighten(@h, 5%);
 			}
-			
 		}
+	}
+	#logo {
+		margin-top: 15px;
+	}
+	#menuTop {
+		margin-top: 30px;
+		font-size: 18px;
+	}
+}
+#logoSmall {
+	padding: 70px 0 10px 0;
+}
+.slicknav_menu {
+	display:none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	box-shadow:0px 2px 5px rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width: 719px) {
+	/* #menu is the original menu */
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
 	}
 }
 /*---------------footer---------------*/
@@ -61,6 +76,8 @@ footer{
 		padding-top: 1%;
 	}
 }
+
+
 /*---------------Index---------------*/
 #slide{
 	width: 100%;
@@ -82,7 +99,7 @@ footer{
 }
 
 #aprenderas{
-	margin-top: 400px;
+	margin-top: 100px;
 	h1{
 		color: @h;
 		text-align: center;
@@ -95,11 +112,6 @@ footer{
 		color: @texto;
 	}
 }
-.aprende{
-	margin: -30px 0 -150px 0;
-	padding: -150px 0 10px 0;
-}
-
 
 #comienza{
 	width: 100%;
@@ -296,19 +308,21 @@ a.btn-afiliado {
 	}
 }
 
-/*---------------Curso---------------*/
-/*---------------Comprar---------------*/
 
+/*---------------Comprar---------------*/
 #comprar{
 	width: 100%;
+	background: url(../img/comprarBG.jpg) 0% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    position: relative; 
+    padding: 100px 0;
 		#contenido-comprar{
-			background-color: white;
 			section{
-			position: absolute;
 			width: 500px;
-			margin: -620px 10% 0 40%;
+			margin: 0px auto;
 			background-color: white;
-			padding: 50px;
+			padding: 40px;
 			.rounded(10px);
 			box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 			h1{
@@ -335,47 +349,54 @@ a.btn-afiliado {
 		
 	}
 }
-/*---------------Afiliate---------------*/
+
+
 /*---------------Contacto---------------*/
 #contacto{
+	width: 100%;
+	background: url(../img/contactanosbanner.jpg) 0% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    position: relative; 
+    padding: 50px 0;
 	#banner-contacto{
 		width: 100%;
 		section{
-			margin: -250px 0 0 0;
 			h1{
 				color:white;
 				font-family: @nexaB;
 				font-size: 4em;
 				text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+				margin-bottom: 0;
 			}
 			h4{
 				font-family: @nexaL;
 				color: white;
 				font-size: 2em;
-				padding-top: 30px;
 				text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+				margin-bottom: 0;
 			}	
 		}
 	}
-	#formulario-contacto{
-		width: 100%;
-		height: 700px;
-		margin: 100px 0 100px 0;
-		background-image: url('../img/mail-bg.jpg');
-		background-repeat: no-repeat;
-		background-position: center top;
-		#formCont{
-			background-color: #F2F2F2;
-			padding: 50px 50px 90px 50px;
-			.rounded(10px);
-			font-family: @nexaL;
-			label{
-				font-family: @nexaL;
-			}
-			#formulario{
-			}
-		}
-	}
+}
+
+#formulario-contacto{
+    height: auto;
+    padding: 70px 0;
+    background: url('../img/mail-bg.jpg') no-repeat center center;
+    #formCont{
+    	background-color: #F2F2F2;
+    	padding: 50px 50px 90px 50px;
+    	.rounded(10px);
+    	font-family: @nexaL;
+    	label{
+    		font-family: @nexaL;
+    	}
+
+    }
+}
+button.btn-verde {
+	border: none;
 }
 .btn-verde {
 	.rounded(5px) !important;
@@ -402,9 +423,8 @@ a.btn-afiliado {
 	}
 }
 
+
 /*----------------SOPORTE-------------*/
-
-
 #img-soporte{
 	width: 100%;
 	height: 400px;
@@ -510,41 +530,34 @@ margin: 50px auto;
 .mgtop{
 	margin-top: -70px;
 }
-	
+
+
+/*----------------media large desktop-------------*/	
 @media @large-desktop{                            
   #aprenderas{
-		margin-top: 400px;
+		margin-top: 100px;
 		p{
-			font-size: 1.5em;
+			font-size: 1.3em;
 		}
 	}
-	#contenido-comprar{
-			section{
-				margin: -1000px 10% auto -40%;
-			}
-		}
-	}  
+}
+.aprende{
+	margin: -30px 0 -150px 0;
+}
 
+
+/*----------------media desktop-------------*/	
 @media @desktop{
-	header{
-		img{
-			width:80%;
-		}
-		ul{
-			position: relative;
-			z-index: 1000px;
-			padding-top:20px;
-			li{
-				padding-right: -10px;
-				margin-right: 20px;
-			}
-		}
-	}
+
 	#aprenderas{
-		margin-top: 400px;
+		margin-top: 100px;
 		p{
 			font-size: 2em;
 		}
+	}
+	.aprende{
+		margin: 0;
+		font-size: 8px;
 	}
 	#banner-contacto{
 		section{
@@ -554,8 +567,7 @@ margin: 50px auto;
 	#comprar{
 		#contenido-comprar{
 			section{
-				height: 350px;
-				margin :-400px 0 0 220px;
+
 				h1{
 				font-size: 3em;
 				}
@@ -566,105 +578,32 @@ margin: 50px auto;
 					margin-top: -20px;
 					font-size: 2.5em;
 				}
-				ul{
-					display: none;
-				}
+
 			}
 		}
 	}
 }
 
-@media @desktop-p{
-	header{
-		img{
-			width:40%;
-		}
-		ul{
-			float: right;
-			position:absolute;
-			z-index: 1000px;
-			margin-left: 400px;
-			li{
-				padding-bottom: 10px;
-			}
-		}
-	}
-	#menu{
-		margin: -60px 30px 60px 300px;
-		z-index: 10000;
-		position: absolute;
-		li{
-			padding-top: -300px;
-		}
-	}
-	#aprenderas{
-		margin-top: 200px;
-		p{
-			font-size: 2em;
-		}
-	}
-	#tresimagenes{
-		img{
-			margin: 0 30%;
-		}
-	}
-	#comprar{
-		#contenido-comprar{
-			section{
-				position: absolute;
-				margin: -88% 20%;
-			}
-		}
-	}
-	#beneficios{
-		#mac{
-			display: none;
-		}
-	}
-	#franjaAzul{
-		h2{
-			text-align: center;
-		}
-		p{
-			margin: 0 30%;
-		}
-		#btn-af{
-			margin: 0 30%;
-		}
-	}
-}
 
+/*----------------media tablet-------------*/	
 @media @tablet{
-	header{
-		#sporAfil{
-			margin-top: 100px;
-		}
-			img{
-				margin-top: -30px;
-				width: 50%;
-			}
-		ul{
-			position: absolute;
-			top:3%;
-			left: 32%;
-		}
+	.nav>li>a {
+		font-size: 16px;
+		padding: 5px 10px;
 	}
-	#slide{
-		margin-top: 50px;
-	}
+
 	#aprenderas{
 		margin-top: 100px;
 		p{
 			font-size: 2.3em;
 		}
+		
 	}
-	
 	#comprar{
 		#contenido-comprar{
 			section{
 				width: 500px;
-				height: 350px;
-				margin :-400px 0 0 80px;
+
 				h1{
 				font-size: 2em;
 				}
@@ -675,9 +614,7 @@ margin: 50px auto;
 					margin-top: -20px;
 					font-size: 1.5em;
 				}
-				ul{
-					display: none;
-				}
+				
 			}
 		}
 	}
@@ -709,93 +646,9 @@ margin: 50px auto;
 	}
 }
 
-@media @smartphone2{
-	#slide{
-		margin-top:25%;
-	}
-	#aprenderas{
-		margin-top: 100px;
-		p{
-			font-size: 2.5em;
-		}
-		section{
-			img{
-				top:-100px;
-			}
-		}
-	}
-	#otromenu{
-		top: -300px;
-		width: 50%;
-		#menu{
-			top: -100px;
-			float: right;
-			font-size: 1em;
-			padding: 0 -10px;
-			margin-top: -50px;
-		}
-	}
-	
-	header{
-		img{
-			width: 50%;
-		}
-	}
-	#comprar{
-		#contenido-comprar{
-			section{
-				width: 300px;
-				height: 300px;
-				margin :-400px 0 0 80px;
-				h1{
-				font-size: 2em;
-				}
-				h4{
-					font-size: 1em;
-				}
-				h2{
-					margin-top: -20px;
-					font-size: 1.5em;
-				}
-				ul{
-					display: none;
-				}
-			}
-		}
-	}
-	#tresimagenes{
-		img{
-			margin-left: 5%;
-		}
-	}
-	#beneficios{
-		#mac{
-			display: none;
-		}
-	}
-	
-	#banner-contacto{
-		section{
-			padding-top: 50px;
-		}
-	}
-	#franjaAzul{
-		h2{
-			text-align: center;
-		}
-		p{
-			margin: 0 30%;
-		}
-		#btn-af{
-			margin: 0 30%;
-		}
-	}
-}
 
+/*----------------media smartphone-------------*/	
 @media @smartphone{
-	#slide{
-		margin-top:35%;
-	}
 	#aprenderas{
 		margin-top: 100px;
 		p{
@@ -818,18 +671,12 @@ margin: 50px auto;
 			margin-top: -50px;
 		}
 	}
-	
-	header{
-		img{
-			width: 50%;
-		}
-	}
 	#comprar{
 		#contenido-comprar{
 			section{
 				width: 300px;
 				height: 300px;
-				margin :-400px 0 0 50px;
+				margin :0 auto;
 				h1{
 				font-size: 2em;
 				}
@@ -889,5 +736,3 @@ margin: 50px auto;
 		}
 	}
 }
-
-

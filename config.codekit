@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16877",
+"creatorBuild": "16903",
 "files": {
 	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
@@ -9,6 +9,7 @@
 		"initialSize": 1226,
 		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -19,6 +20,7 @@
 		"initialSize": 1.12943e+06,
 		"inputAbbreviatedPath": "\/bocetos\/index_v1.4.jpg",
 		"outputAbbreviatedPath": "\/bocetos\/index_v1.4.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -29,6 +31,7 @@
 		"initialSize": 498192,
 		"inputAbbreviatedPath": "\/bocetos\/soporte.jpg",
 		"outputAbbreviatedPath": "\/bocetos\/soporte.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -38,6 +41,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/bootstrap.min.css": {
@@ -46,6 +50,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/bootstrap.min.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/component.css": {
@@ -54,6 +59,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/component.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/component2.css": {
@@ -62,6 +68,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/component2.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/component3.css": {
@@ -70,22 +77,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/component3.css",
 		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/css\/elements.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/css\/elements.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/less\/elements.less": {
@@ -98,6 +90,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/less\/elements.less",
 		"outputAbbreviatedPath": "\/css\/elements.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -106,14 +99,6 @@
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
-		},
-	"\/css\/less\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/less\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		},
 	"\/css\/less\/main.less": {
 		"allowInsecureImports": 0,
@@ -125,6 +110,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/less\/main.less",
 		"outputAbbreviatedPath": "\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -140,6 +126,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/nivo-slider.css": {
@@ -148,6 +135,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/nivo-slider.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/themes\/default\/arrows.png": {
@@ -157,6 +145,7 @@
 		"initialSize": 824,
 		"inputAbbreviatedPath": "\/css\/themes\/default\/arrows.png",
 		"outputAbbreviatedPath": "\/css\/themes\/default\/arrows.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -167,6 +156,7 @@
 		"initialSize": 1281,
 		"inputAbbreviatedPath": "\/css\/themes\/default\/bullets.png",
 		"outputAbbreviatedPath": "\/css\/themes\/default\/bullets.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -176,6 +166,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/themes\/default\/default.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/demo.html": {
@@ -184,6 +175,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/demo.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/fonts\/font.css": {
@@ -192,6 +184,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/fonts\/font.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/formulario.php": {
@@ -200,6 +193,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/formulario.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/img\/comprar-bg.jpg": {
@@ -209,6 +203,18 @@
 		"initialSize": 121163,
 		"inputAbbreviatedPath": "\/img\/comprar-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/comprar-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/comprarBG.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103078,
+		"inputAbbreviatedPath": "\/img\/comprarBG.jpg",
+		"outputAbbreviatedPath": "\/img\/comprarBG.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -219,6 +225,7 @@
 		"initialSize": 105459,
 		"inputAbbreviatedPath": "\/img\/contactanosbanner.jpg",
 		"outputAbbreviatedPath": "\/img\/contactanosbanner.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -229,6 +236,7 @@
 		"initialSize": 21543,
 		"inputAbbreviatedPath": "\/img\/forex-afiliados.jpg",
 		"outputAbbreviatedPath": "\/img\/forex-afiliados.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -239,6 +247,7 @@
 		"initialSize": 11382,
 		"inputAbbreviatedPath": "\/img\/forex-aprovecharlo.png",
 		"outputAbbreviatedPath": "\/img\/forex-aprovecharlo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -249,6 +258,7 @@
 		"initialSize": 11934,
 		"inputAbbreviatedPath": "\/img\/forex-beneficios.png",
 		"outputAbbreviatedPath": "\/img\/forex-beneficios.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -259,6 +269,7 @@
 		"initialSize": 10182,
 		"inputAbbreviatedPath": "\/img\/forex-como-funciona.png",
 		"outputAbbreviatedPath": "\/img\/forex-como-funciona.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -269,6 +280,7 @@
 		"initialSize": 23589,
 		"inputAbbreviatedPath": "\/img\/forex-curso.jpg",
 		"outputAbbreviatedPath": "\/img\/forex-curso.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -279,6 +291,7 @@
 		"initialSize": 26425,
 		"inputAbbreviatedPath": "\/img\/forex-dudas.jpg",
 		"outputAbbreviatedPath": "\/img\/forex-dudas.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -289,6 +302,7 @@
 		"initialSize": 5444,
 		"inputAbbreviatedPath": "\/img\/forex-facebook.jpg",
 		"outputAbbreviatedPath": "\/img\/forex-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -299,6 +313,7 @@
 		"initialSize": 92499,
 		"inputAbbreviatedPath": "\/img\/forex-macbook.jpg",
 		"outputAbbreviatedPath": "\/img\/forex-macbook.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -309,6 +324,7 @@
 		"initialSize": 10631,
 		"inputAbbreviatedPath": "\/img\/forex-que-es.png",
 		"outputAbbreviatedPath": "\/img\/forex-que-es.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -319,6 +335,7 @@
 		"initialSize": 41962,
 		"inputAbbreviatedPath": "\/img\/forex-quote-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/forex-quote-bg.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -329,6 +346,7 @@
 		"initialSize": 5632,
 		"inputAbbreviatedPath": "\/img\/forex-twitter.jpg",
 		"outputAbbreviatedPath": "\/img\/forex-twitter.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -339,6 +357,7 @@
 		"initialSize": 15069,
 		"inputAbbreviatedPath": "\/img\/forex-X.png",
 		"outputAbbreviatedPath": "\/img\/forex-X.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -349,6 +368,7 @@
 		"initialSize": 13729,
 		"inputAbbreviatedPath": "\/img\/logotipo.jpg",
 		"outputAbbreviatedPath": "\/img\/logotipo.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -359,6 +379,7 @@
 		"initialSize": 157327,
 		"inputAbbreviatedPath": "\/img\/mail-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/mail-bg.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -369,6 +390,7 @@
 		"initialSize": 13463,
 		"inputAbbreviatedPath": "\/img\/play.png",
 		"outputAbbreviatedPath": "\/img\/play.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -379,6 +401,7 @@
 		"initialSize": 123974,
 		"inputAbbreviatedPath": "\/img\/sliders\/forex-slider01.jpg",
 		"outputAbbreviatedPath": "\/img\/sliders\/forex-slider01.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -389,6 +412,7 @@
 		"initialSize": 117065,
 		"inputAbbreviatedPath": "\/img\/soportebanner.jpg",
 		"outputAbbreviatedPath": "\/img\/soportebanner.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -398,6 +422,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/js\/cbpAnimatedHeader.min.js": {
@@ -406,6 +431,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/cbpAnimatedHeader.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/cbpAnimatedHeader.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -416,6 +442,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/cbpScroller.js",
 		"outputAbbreviatedPath": "\/js\/min\/cbpScroller-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -426,6 +453,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/classie.js",
 		"outputAbbreviatedPath": "\/js\/min\/classie-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -436,16 +464,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.cbpQTRotator.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.cbpQTRotator-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/jquery.imageScroll.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.imageScroll.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.imageScroll-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -456,6 +475,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.malihu.PageScroll2id.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.malihu.PageScroll2id-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -466,6 +486,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.nivo.slider.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.nivo.slider-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -476,6 +497,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.nivo.slider.pack.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.nivo.slider.pack-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -486,6 +508,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.slicknav.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.slicknav-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -496,6 +519,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main.js",
 		"outputAbbreviatedPath": "\/js\/min\/main-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -506,6 +530,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/cbpAnimatedHeader.min-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/cbpAnimatedHeader.min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -516,6 +541,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/jquery.cbpQTRotator-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/jquery.cbpQTRotator-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -526,6 +552,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/jquery.imageScroll-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/jquery.imageScroll-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -536,6 +563,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/jquery.imageScroll.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/jquery.imageScroll.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -546,6 +574,29 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/jquery.malihu.PageScroll2id-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/jquery.malihu.PageScroll2id-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/parallax-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/parallax-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/parallax-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/parallax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/parallax.js",
+		"outputAbbreviatedPath": "\/js\/min\/parallax-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -556,6 +607,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/bootstrap.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/bootstrap-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -566,6 +618,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/bootstrap.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -576,6 +629,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.11.0.min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-1.11.0.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -586,6 +640,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -596,19 +651,20 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/soporte.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Monocromática",
+"lastSavedByUser": "Ray",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "forex",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_gray"
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-grumpy"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Forex</title>
+        <title>Forex Intuitive</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,7 +18,8 @@
 		<link rel="stylesheet" href="css/nivo-slider.css" media="screen" />
 		<link rel="stylesheet" href="css/component.css">
 		<link rel="stylesheet" href="css/component2.css" />
-		<link rel="stylesheet" href="css/component3.css" />
+		<link rel="stylesheet" href="css/menuHeader.css" />
+		<link rel="stylesheet" href="css/slicknav.css" />
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -26,65 +27,46 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-	<!--<header class="cbp-af-header">
-	    <div class="container cbp-af-inner">
-				<div class="row">
-					<div class="col-md-12 col-md-offset-8" id="soporAfil">
-						<a href="soporte.html">Soporte</a>
-						<a href="#">Afiliados</a>
-					</div>
-					<div class="col-md-4">
-						<a href="index.html" target="_self">
-							<img class="responsive-img" src="img/logotipo.jpg" alt="Forex" />
-						</a>
-					</div>
-					<div class="col-md-8">
-						<div class="row">
-							<div class="col-md-12" id="otromenu">
-								<ul id="menu" class="nav nav-pills pull-right">
-									<li><a href="index.html">Inicio</a></li>
-									<li><a href="index.html #ElCurso">El curso</a></li>
-									<li><a href="comprar.html">Comprar</a></li>
-									<li><a href="afiliate.html">Afiliate</a></li>
-									<li><a href="contacto.html">Contacto</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+		
+	<div id="smallMenu">
+	    <ul id="menu">
+	        <li><a href="#slider">Inicio</a></li>
+	    	<li><a href="#ElCurso">El Curso</a></li>
+	    	<li><a href="#AfiliateYa">Afiliate</a></li>
+	    	<li><a href="#comprarCurso">Comprar</a></li>
+	    	<li><a href="#Contactanos">Contacto</a></li>
+	    </ul>
+	    <div id="logoSmall" class="visible-xs text-center"><img src="img/logotipo.jpg" alt=""></div>
+	</div>
+	<header class="hidden-xs ">
+		<div class="cbp-af-header">
+		    <div class="cbp-af-inner">
+				<div class="container">
+				    <div class="row hidden-xs">
+				    	<div id="menuAf" class="col-md-12 text-right">
+				    		<a href="soporte.html">Preguntas Frecuentes</a>
+				    		<a href="#">Acceso a Afiliados</a>
+				    	</div>				
+				    </div>
+				    <div class="row">
+				    	<div id="logo" class="col-md-4 col-sm-4 col-xs-12">
+				    		<a href=""><img src="img/logotipo.jpg" alt="Forex Intuitive" class="img-responsive"></a>
+				    	</div>
+				    	<div class="col-md-8 col-sm-8 hidden-xs">
+				    		<ul id="menuTop" class="nav nav-pills pull-right">
+				    			<li><a href="#slider">Inicio</a></li>
+				    			<li><a href="#ElCurso">El Curso</a></li>
+				    			<li><a href="#AfiliateYa">Afiliate</a></li>
+				    			<li><a href="#comprarCurso">Comprar</a></li>
+				    			<li><a href="#Contactanos">Contacto</a></li>
+				    		</ul>
+				    	</div>
+				    </div>
 				</div>
 			</div>
-    </header>-->
-    <header class="cbp-af-header">
-    
-		<div class="navbar cbp-af-inner navbar-static-top">
-			<div class="container">
-				<div class="col-md-12 col-md-offset-8" id="soporAfil">
-					<a href="soporte.html">Soporte</a>
-					<a href="#">Afiliados</a>
-				</div>
-				<a href="index.html" class="navbar-brand"><img class="img-responsive" src="img/logotipo.jpg" alt="Logotipo Forex" /></a>
-				
-				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="collapse navbar-collapse navHeaderCollapse nav-pills">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#slide" rel="m_PageScroll2id">Inicio</a></li>
-						<li><a href="#ElCurso" rel="m_PageScroll2id">El curso</a></li>
-						<li><a href="#comprarCurso" rel="m_PageScroll2id">Comprar</a></li>
-						<li><a href="#AfiliateYa" rel="m_PageScroll2id">Afiliate</a></li>
-						<li><a href="#Contactanos" rel="m_PageScroll2id">Contacto</a></li>
-
-					</ul>
-				</div>
-			</div>
-		</div>    
-	    
-    </header>
-
-    <div class="container" id="slide">
+		</div>
+	</header>
+    <div id="slide" class="container">
     	<div class="row">
     		<div class="col-md-12">
 	    		<div class="slider-container theme-default">
@@ -101,32 +83,37 @@
     		</div>
     	</div>
     </div>
-    <div class="container" id="tresimagenes">
+    <div id="tresimagenes" class="container">
     	<div class="row">
     		<div class="col-md-4">
     			<img class="img-responsive" src="img/forex-curso.jpg" alt="Forex-curso" />
     			<h2 class="centrado">El curso a fondo</h2>
-    			<p class="justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, fugit, sed, laborum, ullam incidunt fugiat quidem est praesentium illum perferendis dicta veniam asperiores explicabo amet assumenda nam rem nobis voluptate.</p>
+    			<p class="justificado">El objetivo del curso Forex Intuitive es aprender a operar en Forex con eficacia y las probabilidades a favor del trader, a trav&eacute;s de la aplicaci&oacute;n de Price Action, trading intuitivo y filtros basados en el ritmo, ciclos, correlaciones y gatillo.</p>
     		</div>
 			<div class="col-md-4">
 				<img class="img-responsive" src="img/forex-afiliados.jpg" alt="Forex-afiliados" />
-				<h2 class="centrado">Afiliados</h2>
-				<p class="justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda minus ex expedita deserunt! Autem, repellat aut reiciendis sed provident cupiditate beatae inventore error impedit alias fugit dolor quod vitae?</p>
+				<h2 class="centrado">Afiliaci&oacute;n</h2>
+				<p class="justificado">Creemos tanto en nuestro curso que lo ofrecemos con un ahorro del 30% si lo compras a trav&eacute;s de la recomendaci&oacute;n de alguien que ya lo haya realizado. Y a ti te daremos 200 d&oacute;lares por cada persona que lo compre a trav&eacute;s de tu consejo. Con Forex Intuitive recibir&aacute;s un curso de calidad y la posibilidad de conseguir ingresos extra sin que te cueste nada. Recomendar algo en lo que se cree es muy f&aacute;cil.</p>
 			</div>
 			<div class="col-md-4">
 				<img class="img-responsive" src="img/forex-dudas.jpg" alt="Forex-dudas" />
-				<h2 class="centrado">&iquest;Dudas?</h2>
-				<p class="justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, eligendi, assumenda, maxime, perferendis molestiae enim laudantium esse perspiciatis dolore accusantium obcaecati exercitationem hic itaque aperiam fugit. Ea nostrum architecto repudiandae!</p>
+				<h2 class="centrado">Que ofrecemos</h2>
+				<p class="justificado">Responsabilidad y estrategia. El Forex es un mercado extremadamente complejo, competitivo y un enorme desafío intelectual. Nosotros no vendemos promesas, ofrecemos formación. De Forex Intuitive recibirás un nuestro curso de Price Action y Trading Intuitivo. Nosotros ponemos la formación, pero tú tendrás que poner el esfuerzo, que será mucho. <br>Si tienes experiencia en Forex pero aun no has logrado la consistencia, sabrás que la dificultad de este mercado financiero es máxima. Solo podrás lograr tu objetivo adaptándote. Desde Forex Intuitive te ofrecemos un curso y una promesa. Nuestro curso basado en Price Action y Trading Intuitivo para que aprendas a interpretar y operar en un mercado en continua evolución, y la promesa de que tendrás que practicar mucho y demostrar tu compromiso con tu aprendizaje.</p>
 			</div>
-			<div id="ElCurso"></div>
+			
+    	</div>
+    </div>
+    <div id="enEsteCurso" class="container">
+	    <div class="row">
+	    	<div id="ElCurso"></div>
 			<div id="aprenderas" class="cbp-so-scroller">
 				<h1>EN ESTE CURSO APRENDER&Aacute;S</h1>
 				
 				<section class="cbp-so-section">
 					<div class="aprende col-md-12" id="que-es">
 						<div class="col-md-6 cbp-so-side cbp-so-side-left">
-							<h3>&iquest;Qu&eacute; es Forex?</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, delectus, at quibusdam consequuntur quam asperiores temporibus sapiente ad minima nihil aut fugiat facilis quaerat molestiae accusantium accusamus beatae quos.</p>
+							<h3>Estrategia Price Action</h3>
+							<p>Estrategia de Price Action de Forex Intuitive. Explicada paso a paso desde el inicio y con muchos ejemplos en cuenta real. La repetici&oacute;n es la mejor forma de para explicar y asimilar un sistema de trading.</p>
 						</div>
 						<div class="col-md-6 cbp-so-side cbp-so-side-right">
 							<img class="img-responsive" src="img/forex-que-es.png" alt="Que es Forex" />
@@ -140,8 +127,8 @@
 							<img class="img-responsive" src="img/forex-como-funciona.png" alt="Como funciona" />
 						</div>
 						<div class="col-md-6 cbp-so-side cbp-so-side-right">
-							<h3>&iquest;C&oacute;mo funciona?</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, delectus, at quibusdam consequuntur quam asperiores temporibus sapiente ad minima nihil aut fugiat facilis quaerat molestiae accusantium accusamus beatae quos.</p>
+							<h3>An&aacute;lisis t&eacute;cnico</h3>
+							<p>Trabajaremos la forma correcta de realizar an&aacute;lisis t&eacute;cnico y aprender a detectar las Zonas de Inter&eacute;s donde operan masivamente los traders institucionales.</p>
 						</div>
 					</div>
 				</section>
@@ -149,8 +136,8 @@
 				<section class="cbp-so-section">
 					<div class="aprende col-md-12" id="aprovecharlo">
 						<div class="col-md-6 cbp-so-side cbp-so-side-left">
-							<h3>A aprovecharlo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, delectus, at quibusdam consequuntur quam asperiores temporibus sapiente ad minima nihil aut fugiat facilis quaerat molestiae accusantium accusamus beatae quos.</p>
+							<h3>Filtros</h3>
+							<p>Los filtros son aquellas excepciones que evitaran operaciones con menores probabilidades de &eacute;xito. Filtros basados en el ritmo, aire, correlaciones y gatillo ser&aacute;n de gran ayuda.</p>
 						</div>
 						<div class="col-md-6  cbp-so-side cbp-so-side-right">
 							<img class="img-responsive" src="img/forex-aprovecharlo.png" alt="Aprovecharlo" />
@@ -164,8 +151,8 @@
 							<img class="img-responsive" src="img/forex-beneficios.png" alt="Beneficiarte" />
 						</div>
 						<div class="col-md-6 cbp-so-side cbp-so-side-right">
-							<h3>Beneficiarte</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, delectus, at quibusdam consequuntur quam asperiores temporibus sapiente ad minima nihil aut fugiat facilis quaerat molestiae accusantium accusamus beatae quos.</p>
+							<h3>Trading Intuitivo</h3>
+							<p>Finalmente no existe mejor arma que la educaci&oacute;n y experiencia. La intuici&oacute;n es una herramienta que debe ser cultivada, y en este curso te ense&ntilde;amos a aplicarla en el proceso de toma de decisiones.</p>
 						</div>				
 					</div>
 				</section>
@@ -184,31 +171,28 @@
     		</div>
     	</div>
     </div>
-    <div id="comprar">
-    	<div class="img-holder" data-image="img/comprar-bg.jpg">
+    <section id="comprar" data-speed="3" data-type="background">
+		<div class="container" id="contenido-comprar">
+    	    <div class="row">
+    	    	<div class="col-md-6 col-md-offset-3">
+    	    		<section>
+    	    		<h1 class="centrado">CURSO EN FOREX</h1>
+    	    		<h4 class="centrado">EMPIEZA A VER LOS BENEFICIOS</h4>
+    	    		<h2 class="centrado">LO QUE OBTENDRAS</h2>
+		    		<ul>
+		    			<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
+		    			<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
+		    			<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
+		    			<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
+		    			<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
+		    			<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
+		    		</ul>
+		    		<a href="#"><img src="https://www.paypal.com/es_XC/i/btn/btn_xpressCheckout.gif" align="left" style="margin-right:7px;"></a>
+		    		</section>
+    	    	</div>
+    	    </div>
     	</div>
-			<div class="container" id="contenido-comprar">
-    			<div class="row">
-    				<div class="col-md-6">
-    					<section>
-    					<h1 class="centrado">CURSO EN FOREX</h1>
-    					<h4 class="centrado">EMPIEZA A VER LOS BENEFICIOS</h4>
-    					<h2 class="centrado">LO QUE OBTENDRAS</h2>
-						<ul>
-							<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
-							<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
-							<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
-							<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
-							<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
-							<li>-Al contrario del pensamiento popular, el texto de Lorem Ipsum no es </li>
-						</ul>
-						<a href="#"><img src="https://www.paypal.com/es_XC/i/btn/btn_xpressCheckout.gif" align="left" style="margin-right:7px;"></a>
-						</section>
-    				</div>
-    			</div>
-    		</div>
-    	
-    </div>
+    </section><!-- /#comprar -->
     <div id="AfiliateYa"></div>
     <div id="beneficios">
     	<div class="container">
@@ -222,32 +206,22 @@
 						<p class="jOscuro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, explicabo, minima tempore quod aperiam facilis aliquam maxime eos quo veritatis optio illum soluta perspiciatis. Quasi, incidunt illo ipsum ipsam placeat.</p>
 						<div class="row">
 							<div class="col-md-12">
-								<div class="col-md-6">
+								<div class="col-md-6 col-sm-6">
 									<ul>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+										
 									</ul>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-6 col-sm-6">
 									<ul>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+										
 									</ul>
 								</div>
 							</div>
@@ -259,9 +233,8 @@
     	</div>
     </div>
     <div id="Contactanos"></div>
-    <div id="contacto">
-    	<div class="img-holder" data-image="img/contactanosbanner.jpg" data-cover-ratio="0.3" data-height="400">
-    	</div>
+    <section id="contacto" data-speed="1.5" data-type="background">
+    	
 			<div class="container" id="banner-contacto">
     			<div class="row">
     				<div class="col-md-12">
@@ -272,49 +245,50 @@
     				</div>
     			</div>
     		</div>
-			<div id="formulario-contacto">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<div id="formCont">
-								<h2 class="headerContacto">Formulario de contacto</h2>
-								<div id="formulario">
-									<form role="form" method="post" action="formulario.php" class="pure-form">
-										<div class="row">
-											<div class="form-group col-md-6">
-												<label for="first_name">Nombre</label>
-												<input type="text" class="form-control" name="first_name" id="first_name" placeholder="Coloca tu nombre" required >
-											</div>
-											<div class="form-group col-md-6">
-												<label for="last_name">Apellido</label>
-												<input type="text" class="form-control" name="last_name" id="last_name" placeholder="Coloca tu apellido" required >
-											</div>
-										</div>
-											<span id="messages"></span>
-										</div>
-										<div class="row">
-											<div class="form-group col-md-6">
-												<label for="email">Email</label>
-												<input type="email" class="form-control testBox" name="email" id="email" placeholder="Coloca tu email" required >
-												</div>
-											<div class="form-group col-md-6">
-												<label for="telephone">Tel&eacute;fono</label>
-												<input type="text" class="form-control testBox" name="telephone" id="telephone" placeholder="Coloca tu teléfono">
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="comments">Mensaje</label>
-											<textarea  type="text" class="form-control testBox" name="comments" id="comments" placeholder="Déjanos tu mensaje" rows="5" required ></textarea>
-										</div>							
-										<button type="submit" value="enviar" class="btn-verde col-md-12">enviar correo</button>						
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-    </div>
+			
+    </section>
+	<div id="formulario-contacto">
+		<div class="container">
+		    <div class="row">
+		    	<div class="col-md-8 col-md-offset-2">
+		    		<div id="formCont">
+		    			<h2 class="headerContacto">Formulario de contacto</h2>
+		    			<div id="formulario">
+		    				<form role="form" method="post" action="formulario.php" class="pure-form">
+		    					<div class="row">
+		    						<div class="form-group col-md-6">
+		    							<label for="first_name">Nombre</label>
+		    							<input type="text" class="form-control" name="first_name" id="first_name" placeholder="Coloca tu nombre" required >
+		    						</div>
+		    						<div class="form-group col-md-6">
+		    							<label for="last_name">Apellido</label>
+		    							<input type="text" class="form-control" name="last_name" id="last_name" placeholder="Coloca tu apellido" required >
+		    						</div>
+		    					</div>
+		    						<span id="messages"></span>
+		    					</div>
+		    					<div class="row">
+		    						<div class="form-group col-md-6">
+		    							<label for="email">Email</label>
+		    							<input type="email" class="form-control testBox" name="email" id="email" placeholder="Coloca tu email" required >
+		    							</div>
+		    						<div class="form-group col-md-6">
+		    							<label for="telephone">Tel&eacute;fono</label>
+		    							<input type="text" class="form-control testBox" name="telephone" id="telephone" placeholder="Coloca tu teléfono">
+		    						</div>
+		    					</div>
+		    					<div class="form-group">
+		    						<label for="comments">Mensaje</label>
+		    						<textarea  type="text" class="form-control testBox" name="comments" id="comments" placeholder="Déjanos tu mensaje" rows="5" required ></textarea>
+		    					</div>							
+		    					<button type="submit" value="enviar" class="btn-verde col-md-12">enviar correo</button>						
+		    				</form>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>
     <div id="testimoniales">
     	<div class="container">
     		<div class="row">
@@ -385,8 +359,8 @@
 	    			<div class="col-md-4">
 		    			<h3 class="nexab azulOscuro">SIGUENOS EN</h3>
 		    			<div class="row" id="izq">
-		    				<div class="col-md-6"><img class="img-responsive" src="img/forex-facebook.jpg" alt="facebook" /></div>
-		    				<div class="col-md-6"><img class="img-responsive" src="img/forex-twitter.jpg" alt="twitter" /></div>
+		    				<div class="col-md-6 col-sm-2 col-sm-offset-4 text-center"><img class="img-responsive" src="img/forex-facebook.jpg" alt="facebook" /></div>
+		    				<div class="col-md-6 col-sm-2 text-center"><img class="img-responsive" src="img/forex-twitter.jpg" alt="twitter" /></div>
 		    			</div>
 	    			</div>
     			</div>
@@ -395,21 +369,25 @@
     </div>
     <footer>
      	<p>Forex Intituive 2014. Todos los derechos reservados.</p>
-     </footer>
-	 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </footer>
+	
+	
+	
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 		<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 		<script src="js/cbpScroller.js"></script>
 		<script src="js/classie.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/jquery.slicknav.js"></script>
-        <script type="text/javascript">
-			$(document).ready(function(){
-				$('#menu').slicknav();
-			});
-		</script>
+        <script src="js/parallax.js"></script>
         <script src="js/jquery.malihu.PageScroll2id.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+<script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
 		<script>
 			(function($){
 				$(window).load(function(){
@@ -421,15 +399,11 @@
 				});
 			})(jQuery);
 		</script>
-        <script src="js/cbpAnimatedHeader.min.js"></script>
+        <script src="js/menuHeader.js"></script>
         <script src="js/jquery.cbpQTRotator.js"></script>
-        <script src="js/jquery.imageScroll.js"></script>
         <script>
 			new cbpScroller( document.getElementById( 'aprenderas' ) );
 		</script>
-        <script>
-        	$('.img-holder').imageScroll();
-        </script>
 		<script type="text/javascript">
 			$(window).load(function() {
 				$('#slider').nivoSlider();
@@ -437,24 +411,7 @@
 		</script>
 		<script>
 			$( function() {
-				/*
-				- how to call the plugin:
-				$( selector ).cbpQTRotator( [options] );
-				- options:
-				{
-					// default transition speed (ms)
-					speed : 700,
-					// default transition easing
-					easing : 'ease',
-					// rotator interval (ms)
-					interval : 8000
-				}
-				- destroy:
-				$( selector ).cbpQTRotator( 'destroy' );
-				*/
-
 				$( '#cbp-qtrotator' ).cbpQTRotator();
-
 			} );
 		</script>
 

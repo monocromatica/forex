@@ -253,7 +253,7 @@
 		width: 100%;
 		background: #fff;
 		z-index: 10000;
-		height: 80px;
+		height: 110px;
 		overflow: hidden;
 		-webkit-transition: height 0.3s;
 		-moz-transition: height 0.3s;
@@ -270,13 +270,14 @@
 	.cbp-af-header .cbp-af-inner {
 		width: 90%;
 		max-width: 69em;
-		margin: -25px auto;
+		margin: -15px auto;
 		padding: 0 1.875em;
 	}
 
 	.cbp-af-header .cbp-af-inner #soporAfil {
-		margin: 50px 0 0 400px;
+		margin: 30px 0 0 400px;
 	}
+	
 	.cbp-af-header.cbp-af-header-shrink a{
 		-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -284,7 +285,7 @@
 			margin-top: -5px;
 		}
 		.cbp-af-header.cbp-af-header-shrink {
-		height: 5%;
+		height: 90px;
 		box-shadow: 1px 1px 4px rgba(0,0,0,0.38);
 		padding-bottom: 20px;
 		
