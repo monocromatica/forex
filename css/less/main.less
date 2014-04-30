@@ -16,19 +16,49 @@
 @smartphone: ~"only screen and (min-width : 320px) and (max-width : 480px)";
 
 
+
+/*--------------generales---------------*/
+.img-banner{
+	width: 100%;
+	height: 300px;
+	background-position: center center;
+	h1{
+		padding-top: 90px;
+		color: white;
+		text-align: center;
+		text-shadow: 1px 1px 2px black;
+		font-size: 4em;
+		font-family: @nexaB;
+	}
+	p{
+		color: white;
+		text-align: center;
+		text-shadow: 1px 1px 2px black;
+		font-size: 2em;
+		font-family: @nexaL;
+	}
+	hr{
+		width: 40%;
+		box-shadow: .1px .1px 1px black;
+		margin: -10px auto 10px auto;
+	}
+	
+}
+
 /*--------------header---------------*/
 header {
-	background: white;
+	margin-bottom: -120px;
 	padding: 5px 0 20px 0;
-	font-family: @nexaL;
 	height: 120px;
+	background: white;
+	font-family: @nexaL;
 	#menuAf{
 		margin-top: 5px;
 		font-size: 12px;
 		a {
-			color: @h;
 			.transition(.2s, ease-out);
 			margin-right: 20px;
+			color: @h;
 			text-decoration: none;
 			a:hover {
 				color: lighten(@h, 5%);
@@ -47,9 +77,9 @@ header {
 	padding: 70px 0 10px 0;
 }
 .slicknav_menu {
-	display:none;
 	position: fixed;
 	z-index: 999;
+	display:none;
 	width: 100%;
 	box-shadow:0px 2px 5px rgba(0,0,0,0.5);
 }
@@ -70,10 +100,10 @@ footer{
 	height: 50px;
 	background-color:#898989;
 	p{
-		text-align: center;
-		color: #636363;
-		font-family: @nexaB;
 		padding-top: 1%;
+		color: #636363;
+		text-align: center;
+		font-family: @nexaB;
 	}
 }
 
@@ -90,20 +120,20 @@ footer{
 }
 .centrado{
 	color: @azul;
-	font-family: @nexaB;
 	text-align: center;
+	font-family: @nexaB;
 }
 .justificado{
-	text-align: justify;
 	color: @texto;
+	text-align: justify;
 }
 
 #aprenderas{
 	margin-top: 100px;
 	h1{
+		margin-bottom: 50px;
 		color: @h;
 		text-align: center;
-		margin-bottom: 50px;
 	}
 	h3{
 		color: @azul;
@@ -114,40 +144,40 @@ footer{
 }
 
 #comienza{
+	padding: 70px 0;
 	width: 100%;
 	background-color: @verde;
-	padding: 70px 0;
 	h1{
 		color: white;
-		font-family: @nexaB;
 		font-size: 4em;
+		font-family: @nexaB;
 	}
 	h2{
 		color: white;
-		font-family: @nexaB;
-		font-size: 3em;
 		text-shadow: 1px 1px 3px black;
+		font-size: 3em;
+		font-family: @nexaB;
 	}
 	p{
 		color: black;
-		font-family: @nexaL;
 		font-size: large;
+		font-family: @nexaL;
 	}
 	span{
-		font-family: @nexaB;
-		color: white;
 		padding-left: 40px;
+		color: white;
 		font-size: x-large;
+		font-family: @nexaB;
 	}
 }
 
-a.btn-azul {
-	margin-left:37%; 
+a.btn-azul { 
 	.rounded(5px) !important;
 	.transition(.2s, ease);
 	position: relative;
 	top:0;
 	margin-bottom: 30px;
+	margin-left:37%;
 	padding:15px 45px;
 	background: @azul;
 	box-shadow: 0px 6px 0px @azulOscuro;
@@ -170,71 +200,43 @@ a.btn-azul {
 #beneficios{
 	margin: 100px 0;
 	#mac{
-		right: 180px;
 		top:200px;
+		right: 180px;
 	}
 	#encabezados{
 		ul{
+			margin-bottom: 50px;
+			margin-left: -30px;
 			color: @h;
 			text-align: left;
-			margin-left: -30px;
 			font-family: helvetica, arial;
-			margin-bottom: 50px;
 		}
 	}
 }
 .light{
-	text-align: center;
-	font-family: @nexaL;
 	color: @azul;
+	text-align: center;
 	font-size: 4.5em;
+	font-family: @nexaL;
 	line-height: 30%;
 }
-a.btn-verde {
-	.rounded(5px) !important;
-	.transition(.2s, ease);
-	position: relative;
-	margin: 0 35% 30px 30%;
-	padding:10px 12%;
-	background: @verde;
-	box-shadow: 0px 6px 0px @verdeOscuro;
-	color: white;
-	font-size: 28px;
-	font-family: @nexaB;
-	&:hover{
-		top:4px;
-		background: darken(@verde, 2%) !important;
-		box-shadow: 0px 4px 0px @verdeOscuro;
-		text-decoration: none;
-	}
-	&:active{
-		top:7px;
-		background: darken(@verde, 2%) !important;
-		box-shadow: 0px 2px 0px @verdeOscuro;
-	}
-}
-.jOscuro{
-	text-align: justify;
-	color: @h;
-	margin: 50px 0;
-	font-family: helvetica, arial;
-}
+
 
 #testimoniales{
 	width: 100%;
 	background-image: url('../img/forex-quote-bg.jpg');
-	background-size: 1920px;
-	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 1920px;
+	background-size: 1920px;
+	background-repeat: no-repeat;
 	h2{
+		padding: 40px 0 15px 3%;
 		color: white;
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.55);
-		padding: 40px 0 15px 3%;
 	}
 	span{
-		margin-right: 30px;
 		float: right;
+		margin-right: 30px;
 		color: @azulOscuro;
 	}
 }
@@ -248,9 +250,9 @@ a.btn-verde {
 	color: @azulOscuro;
 }
 #franjaAzul{
+	padding: 10px 0;
 	width: 100%;
 	background-color: @azul;
-	padding: 10px 0;
 	p{
 		margin-left: -60px;
 		padding-top: 20px;
@@ -262,20 +264,20 @@ a.btn-verde {
 		}
 	}
 	#btn-af{
-		height: 70px;
-		width: 250px;
-		background-color: @azulOscuro;
-		padding: 10px 0 10px 40px;
+		.rounded(5px);
 		margin-left: -30px;
-		.rounded(5px)
+		padding: 10px 0 10px 40px;
+		width: 250px;
+		height: 70px;
+		background-color: @azulOscuro;
 	}
 }
 a.btn-afiliado {
 	.transition(.2s, ease);
 	position: relative;
 	top:0;
-	color: white;
 	padding-right: 60px;
+	color: white;
 	span{
 		font-size: 2.3em;
 		font-family: @nexaB;
@@ -293,10 +295,10 @@ a.btn-afiliado {
 }
 
 #riesgo{
+	padding: 50px 0;
 	background-color: #D7D7D7;
 	background-image: url('../img/forex-X.png');
 	background-repeat: no-repeat;
-	padding: 50px 0;
 	#advertencia{
 		h3{
 			padding: 10px 0px;
@@ -310,37 +312,41 @@ a.btn-afiliado {
 
 
 /*---------------Comprar---------------*/
-#comprar{
-	width: 100%;
-	background: url(../img/comprarBG.jpg) 0% 0 fixed; 
-    height: auto;  
+#img-comprar {
+	background-image: url('../img/comprar-bg.jpg');
+}
+
+#comprar{ 
+    position: relative;  
     margin: 0 auto; 
-    position: relative; 
     padding: 100px 0;
+	width: 100%; 
+    height: auto;
+	background: url(../img/comprarBG.jpg) 0% 0 fixed;
 		#contenido-comprar{
 			section{
-			width: 500px;
-			margin: 0px auto;
-			background-color: white;
-			padding: 40px;
 			.rounded(10px);
+			margin: 0px auto;
+			padding: 40px;
+			width: 500px;
+			background-color: white;
 			box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 			h1{
 				color: @azulOscuro;
 			}
 			h4{
-				font-family: @nexaL;
 				color: @azulOscuro;
+				font-family: @nexaL;
 			}
 			h2{
-				font-family: @nexaL;
 				color: @azulOscuro;
+				font-family: @nexaL;
 				padding-top: 30px;
 			}
 			ul{
 				color: @texto;
-				font-family: Helvetica;
 				list-style:none;
+				font-family: Helvetica;
 			}
 			ul{
 				padding: 30px 40px;
@@ -349,45 +355,57 @@ a.btn-afiliado {
 		
 	}
 }
+.btn-comprar {
+	margin-top: 50px;
+	margin-bottom: 0;
+}
 
-
+#item18 {
+  border: 1px solid #cccccc !important;
+  background: #f2f2f2;
+  height:150px;
+  width: 100%;
+  margin: 20px 0;
+  overflow-x: hidden;
+  padding: 5px !important;
+}
 /*---------------Contacto---------------*/
-#contacto{
-	width: 100%;
-	background: url(../img/contactanosbanner.jpg) 0% 0 fixed; 
-    height: auto;  
+#contacto{ 
+    position: relative;  
     margin: 0 auto; 
-    position: relative; 
     padding: 50px 0;
+	width: 100%; 
+    height: auto;
+	background: url(../img/contactanosbanner.jpg) 0% 0 fixed;
 	#banner-contacto{
 		width: 100%;
 		section{
 			h1{
-				color:white;
-				font-family: @nexaB;
-				font-size: 4em;
-				text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 				margin-bottom: 0;
+				color:white;
+				text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+				font-size: 4em;
+				font-family: @nexaB;
 			}
 			h4{
-				font-family: @nexaL;
-				color: white;
-				font-size: 2em;
-				text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 				margin-bottom: 0;
+				color: white;
+				text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+				font-size: 2em;
+				font-family: @nexaL;
 			}	
 		}
 	}
 }
 
 #formulario-contacto{
-    height: auto;
     padding: 70px 0;
+    height: auto;
     background: url('../img/mail-bg.jpg') no-repeat center center;
     #formCont{
-    	background-color: #F2F2F2;
-    	padding: 50px 50px 90px 50px;
     	.rounded(10px);
+    	padding: 50px 50px 90px 50px;
+    	background-color: #F2F2F2;
     	font-family: @nexaL;
     	label{
     		font-family: @nexaL;
@@ -400,10 +418,6 @@ button.btn-verde {
 }
 .btn-verde {
 	.rounded(5px) !important;
-	.transition(.2s, ease);
-	position: relative;
-	top:0;
-	margin-bottom: 30px;
 	padding:10px 90px;
 	background: @verde;
 	box-shadow: 0px 6px 0px @verdeOscuro;
@@ -415,68 +429,49 @@ button.btn-verde {
 		background: darken(@verde, 2%) !important;
 		box-shadow: 0px 4px 0px @verdeOscuro;
 		text-decoration: none;
+		color: white;
 	}
 	&:active{
 		top:7px;
 		background: darken(@verde, 2%) !important;
 		box-shadow: 0px 2px 0px @verdeOscuro;
+		color: white;
 	}
+	.transition(.2s, ease);
 }
 
 
 /*----------------SOPORTE-------------*/
-#img-soporte{
-	width: 100%;
-	height: 400px;
+#img-soporte {
 	background-image: url('../img/soportebanner.jpg');
-	background-position: center top;
-	h1{
-		padding-top: 150px;
-		font-family: @nexaB;
-		color: white;
-		text-align: center;
-		font-size: 4em;
-		text-shadow: 1px 1px 2px black;
-	}
-	p{
-		font-family: @nexaL;
-		color: white;
-		text-align: center;
-		font-size: 2em;
-		text-shadow: 1px 1px 2px black;
-	}
-	hr{
-		width: 20%;
-		box-shadow: .1px .1px 1px black;
-	}
-	
 }
+
 #soporte{
 margin: 50px auto;
 	ul{
-		list-style: none;
 		color: @texto;
+		list-style: none;
 		text-align: justify;
 		li{
 			padding:10px 0;
 			h4{
 				color: @azul;
-				font-family: @nexaB;
 				font-size: 1.5em;
+				font-family: @nexaB;
 			}
 			p{
-				font-family: helvetica;
 				padding-bottom: 50px;
-				border-bottom: 1px solid @texto; 
+				border-bottom: 1px solid @texto;
+				font-family: helvetica; 
 			}
 		}
 	}	
 	h2{
-		font-family: @nexaB;
-		color: @azul;
 		padding: 20px 20px 0px 0px;
 		border-bottom: 1px solid @azul;
+		color: @azul;
 		font-size:2.5em;
+		font-family: @nexaB;
 	}
 }
 .icon-bar{
@@ -489,36 +484,36 @@ margin: 50px auto;
 		background-color: #F2F2F2;
 		box-shadow: 1px 1px 7px rgba(0,0,0,0.46);
 		h3{
-			font-family: @nexaB;
-			color: @azul;
 			border-bottom: 1px solid @azul;
+			color: @azul;
+			font-family: @nexaB;
 			
 		}
 		h4{
 			padding-top: 20px;
 		}
 		ul{
-			font-family: @nexaL;
 			padding-top: -20px;
+			font-family: @nexaL;
 			li{
 				margin-bottom:-20px; 
 			}
 		}
 		#correoSoporte{
-			background-color: white;
 			.rounded(10px);
-			padding: -5px 5px 5px 5px;
 			margin: 15px 0;
+			padding: -5px 5px 5px 5px;
+			background-color: white;
 			h4{
-				text-align: center;
 				color: @h;
+				text-align: center;
 			}
 			a{
-				font-family: @nexaB;
-				font-size: 1.3em;
 				padding: 3px 10px;
 				color:@azul;
 				text-decoration: none;
+				font-size: 1.3em;
+				font-family: @nexaB;
 			}
 		}
 		
@@ -588,8 +583,8 @@ margin: 50px auto;
 /*----------------media tablet-------------*/	
 @media @tablet{
 	.nav>li>a {
-		font-size: 16px;
 		padding: 5px 10px;
+		font-size: 16px;
 	}
 
 	#aprenderas{
@@ -666,17 +661,17 @@ margin: 50px auto;
 		#menu{
 			top: -100px;
 			float: right;
-			font-size: 1em;
-			padding: 0 -10px;
 			margin-top: -50px;
+			padding: 0 -10px;
+			font-size: 1em;
 		}
 	}
 	#comprar{
 		#contenido-comprar{
 			section{
+				margin :0 auto;
 				width: 300px;
 				height: 300px;
-				margin :0 auto;
 				h1{
 				font-size: 2em;
 				}

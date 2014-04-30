@@ -1,22 +1,49 @@
 /*--------------variables-------------*/
+/*--------------generales---------------*/
+.img-banner {
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+}
+.img-banner h1 {
+  padding-top: 90px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-size: 4em;
+  font-family: "Nexa Bold", Helvetica, Arial;
+}
+.img-banner p {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-size: 2em;
+  font-family: "Nexa light", Helvetica, Arial;
+}
+.img-banner hr {
+  width: 40%;
+  box-shadow: .1px .1px 1px black;
+  margin: -10px auto 10px auto;
+}
 /*--------------header---------------*/
 header {
-  background: white;
+  margin-bottom: -120px;
   padding: 5px 0 20px 0;
-  font-family: "Nexa light", Helvetica, Arial;
   height: 120px;
+  background: white;
+  font-family: "Nexa light", Helvetica, Arial;
 }
 header #menuAf {
   margin-top: 5px;
   font-size: 12px;
 }
 header #menuAf a {
-  color: #636363;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-right: 20px;
+  color: #636363;
   text-decoration: none;
 }
 header #menuAf a a:hover {
@@ -33,9 +60,9 @@ header #menuTop {
   padding: 70px 0 10px 0;
 }
 .slicknav_menu {
-  display: none;
   position: fixed;
   z-index: 999;
+  display: none;
   width: 100%;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -55,10 +82,10 @@ footer {
   background-color: #898989;
 }
 footer p {
-  text-align: center;
-  color: #636363;
-  font-family: "Nexa Bold", Helvetica, Arial;
   padding-top: 1%;
+  color: #636363;
+  text-align: center;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 /*---------------Index---------------*/
 #slide {
@@ -72,20 +99,20 @@ footer p {
 }
 .centrado {
   color: #1ca8f7;
-  font-family: "Nexa Bold", Helvetica, Arial;
   text-align: center;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 .justificado {
-  text-align: justify;
   color: #7e7e7e;
+  text-align: justify;
 }
 #aprenderas {
   margin-top: 100px;
 }
 #aprenderas h1 {
+  margin-bottom: 50px;
   color: #636363;
   text-align: center;
-  margin-bottom: 50px;
 }
 #aprenderas h3 {
   color: #1ca8f7;
@@ -94,34 +121,33 @@ footer p {
   color: #7e7e7e;
 }
 #comienza {
+  padding: 70px 0;
   width: 100%;
   background-color: #a7de57;
-  padding: 70px 0;
 }
 #comienza h1 {
   color: white;
-  font-family: "Nexa Bold", Helvetica, Arial;
   font-size: 4em;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 #comienza h2 {
   color: white;
-  font-family: "Nexa Bold", Helvetica, Arial;
-  font-size: 3em;
   text-shadow: 1px 1px 3px black;
+  font-size: 3em;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 #comienza p {
   color: black;
-  font-family: "Nexa light", Helvetica, Arial;
   font-size: large;
+  font-family: "Nexa light", Helvetica, Arial;
 }
 #comienza span {
-  font-family: "Nexa Bold", Helvetica, Arial;
-  color: white;
   padding-left: 40px;
+  color: white;
   font-size: x-large;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 a.btn-azul {
-  margin-left: 37%;
   -webkit-border-radius: 5px !important;
   -moz-border-radius: 5px !important;
   border-radius: 5px !important;
@@ -132,6 +158,7 @@ a.btn-azul {
   position: relative;
   top: 0;
   margin-bottom: 30px;
+  margin-left: 37%;
   padding: 15px 45px;
   background: #1ca8f7;
   box-shadow: 0px 6px 0px #136f9f;
@@ -154,72 +181,38 @@ a.btn-azul:active {
   margin: 100px 0;
 }
 #beneficios #mac {
-  right: 180px;
   top: 200px;
+  right: 180px;
 }
 #beneficios #encabezados ul {
+  margin-bottom: 50px;
+  margin-left: -30px;
   color: #636363;
   text-align: left;
-  margin-left: -30px;
   font-family: helvetica, arial;
-  margin-bottom: 50px;
 }
 .light {
-  text-align: center;
-  font-family: "Nexa light", Helvetica, Arial;
   color: #1ca8f7;
+  text-align: center;
   font-size: 4.5em;
+  font-family: "Nexa light", Helvetica, Arial;
   line-height: 30%;
-}
-a.btn-verde {
-  -webkit-border-radius: 5px !important;
-  -moz-border-radius: 5px !important;
-  border-radius: 5px !important;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  position: relative;
-  margin: 0 35% 30px 30%;
-  padding: 10px 12%;
-  background: #a7de57;
-  box-shadow: 0px 6px 0px #7ba53b;
-  color: white;
-  font-size: 28px;
-  font-family: "Nexa Bold", Helvetica, Arial;
-}
-a.btn-verde:hover {
-  top: 4px;
-  background: #a3dc4e !important;
-  box-shadow: 0px 4px 0px #7ba53b;
-  text-decoration: none;
-}
-a.btn-verde:active {
-  top: 7px;
-  background: #a3dc4e !important;
-  box-shadow: 0px 2px 0px #7ba53b;
-}
-.jOscuro {
-  text-align: justify;
-  color: #636363;
-  margin: 50px 0;
-  font-family: helvetica, arial;
 }
 #testimoniales {
   width: 100%;
   background-image: url('../img/forex-quote-bg.jpg');
-  background-repeat: no-repeat;
   background-position: center top;
   background-size: 1920px;
+  background-repeat: no-repeat;
 }
 #testimoniales h2 {
+  padding: 40px 0 15px 3%;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.55);
-  padding: 40px 0 15px 3%;
 }
 #testimoniales span {
-  margin-right: 30px;
   float: right;
+  margin-right: 30px;
   color: #136f9f;
 }
 .nexab {
@@ -232,9 +225,9 @@ a.btn-verde:active {
   color: #136f9f;
 }
 #franjaAzul {
+  padding: 10px 0;
   width: 100%;
   background-color: #1ca8f7;
-  padding: 10px 0;
 }
 #franjaAzul p {
   margin-left: -60px;
@@ -247,14 +240,14 @@ a.btn-verde:active {
   font-family: "Nexa Bold", Helvetica, Arial;
 }
 #franjaAzul #btn-af {
-  height: 70px;
-  width: 250px;
-  background-color: #136f9f;
-  padding: 10px 0 10px 40px;
-  margin-left: -30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  margin-left: -30px;
+  padding: 10px 0 10px 40px;
+  width: 250px;
+  height: 70px;
+  background-color: #136f9f;
 }
 a.btn-afiliado {
   -webkit-transition: all 0.2s ease;
@@ -263,8 +256,8 @@ a.btn-afiliado {
   transition: all 0.2s ease;
   position: relative;
   top: 0;
-  color: white;
   padding-right: 60px;
+  color: white;
 }
 a.btn-afiliado span {
   font-size: 2.3em;
@@ -280,10 +273,10 @@ a.btn-afiliado:active {
   background: #126996 !important;
 }
 #riesgo {
+  padding: 50px 0;
   background-color: #D7D7D7;
   background-image: url('../img/forex-X.png');
   background-repeat: no-repeat;
-  padding: 50px 0;
 }
 #riesgo #advertencia h3 {
   padding: 10px 0px;
@@ -293,81 +286,97 @@ a.btn-afiliado:active {
   margin-left: 30px;
 }
 /*---------------Comprar---------------*/
+#img-comprar {
+  background-image: url('../img/comprar-bg.jpg');
+}
 #comprar {
-  width: 100%;
-  background: url(../img/comprarBG.jpg) 0% 0 fixed;
-  height: auto;
-  margin: 0 auto;
   position: relative;
+  margin: 0 auto;
   padding: 100px 0;
+  width: 100%;
+  height: auto;
+  background: url(../img/comprarBG.jpg) 0% 0 fixed;
 }
 #comprar #contenido-comprar section {
-  width: 500px;
-  margin: 0px auto;
-  background-color: white;
-  padding: 40px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  margin: 0px auto;
+  padding: 40px;
+  width: 500px;
+  background-color: white;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 #comprar #contenido-comprar section h1 {
   color: #136f9f;
 }
 #comprar #contenido-comprar section h4 {
-  font-family: "Nexa light", Helvetica, Arial;
   color: #136f9f;
+  font-family: "Nexa light", Helvetica, Arial;
 }
 #comprar #contenido-comprar section h2 {
-  font-family: "Nexa light", Helvetica, Arial;
   color: #136f9f;
+  font-family: "Nexa light", Helvetica, Arial;
   padding-top: 30px;
 }
 #comprar #contenido-comprar section ul {
   color: #7e7e7e;
-  font-family: Helvetica;
   list-style: none;
+  font-family: Helvetica;
 }
 #comprar #contenido-comprar section ul {
   padding: 30px 40px;
 }
+.btn-comprar {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+#item18 {
+  border: 1px solid #cccccc !important;
+  background: #f2f2f2;
+  height: 150px;
+  width: 100%;
+  margin: 20px 0;
+  overflow-x: hidden;
+  padding: 5px !important;
+}
 /*---------------Contacto---------------*/
 #contacto {
-  width: 100%;
-  background: url(../img/contactanosbanner.jpg) 0% 0 fixed;
-  height: auto;
-  margin: 0 auto;
   position: relative;
+  margin: 0 auto;
   padding: 50px 0;
+  width: 100%;
+  height: auto;
+  background: url(../img/contactanosbanner.jpg) 0% 0 fixed;
 }
 #contacto #banner-contacto {
   width: 100%;
 }
 #contacto #banner-contacto section h1 {
-  color: white;
-  font-family: "Nexa Bold", Helvetica, Arial;
-  font-size: 4em;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   margin-bottom: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  font-size: 4em;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 #contacto #banner-contacto section h4 {
-  font-family: "Nexa light", Helvetica, Arial;
-  color: white;
-  font-size: 2em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 0;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-family: "Nexa light", Helvetica, Arial;
 }
 #formulario-contacto {
-  height: auto;
   padding: 70px 0;
+  height: auto;
   background: url('../img/mail-bg.jpg') no-repeat center center;
 }
 #formulario-contacto #formCont {
-  background-color: #F2F2F2;
-  padding: 50px 50px 90px 50px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  padding: 50px 50px 90px 50px;
+  background-color: #F2F2F2;
   font-family: "Nexa light", Helvetica, Arial;
 }
 #formulario-contacto #formCont label {
@@ -380,63 +389,40 @@ button.btn-verde {
   -webkit-border-radius: 5px !important;
   -moz-border-radius: 5px !important;
   border-radius: 5px !important;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  position: relative;
-  top: 0;
-  margin-bottom: 30px;
   padding: 10px 90px;
   background: #a7de57;
   box-shadow: 0px 6px 0px #7ba53b;
   color: white;
   font-size: 28px;
   font-family: "Nexa Bold", Helvetica, Arial;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .btn-verde:hover {
   top: 4px;
   background: #a3dc4e !important;
   box-shadow: 0px 4px 0px #7ba53b;
   text-decoration: none;
+  color: white;
 }
 .btn-verde:active {
   top: 7px;
   background: #a3dc4e !important;
   box-shadow: 0px 2px 0px #7ba53b;
+  color: white;
 }
 /*----------------SOPORTE-------------*/
 #img-soporte {
-  width: 100%;
-  height: 400px;
   background-image: url('../img/soportebanner.jpg');
-  background-position: center top;
-}
-#img-soporte h1 {
-  padding-top: 150px;
-  font-family: "Nexa Bold", Helvetica, Arial;
-  color: white;
-  text-align: center;
-  font-size: 4em;
-  text-shadow: 1px 1px 2px black;
-}
-#img-soporte p {
-  font-family: "Nexa light", Helvetica, Arial;
-  color: white;
-  text-align: center;
-  font-size: 2em;
-  text-shadow: 1px 1px 2px black;
-}
-#img-soporte hr {
-  width: 20%;
-  box-shadow: .1px .1px 1px black;
 }
 #soporte {
   margin: 50px auto;
 }
 #soporte ul {
-  list-style: none;
   color: #7e7e7e;
+  list-style: none;
   text-align: justify;
 }
 #soporte ul li {
@@ -444,20 +430,20 @@ button.btn-verde {
 }
 #soporte ul li h4 {
   color: #1ca8f7;
-  font-family: "Nexa Bold", Helvetica, Arial;
   font-size: 1.5em;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 #soporte ul li p {
-  font-family: helvetica;
   padding-bottom: 50px;
   border-bottom: 1px solid #7e7e7e;
+  font-family: helvetica;
 }
 #soporte h2 {
-  font-family: "Nexa Bold", Helvetica, Arial;
-  color: #1ca8f7;
   padding: 20px 20px 0px 0px;
   border-bottom: 1px solid #1ca8f7;
+  color: #1ca8f7;
   font-size: 2.5em;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 .icon-bar {
   background-color: #136f9f !important;
@@ -472,38 +458,38 @@ button.btn-verde {
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.46);
 }
 #sidebar h3 {
-  font-family: "Nexa Bold", Helvetica, Arial;
-  color: #1ca8f7;
   border-bottom: 1px solid #1ca8f7;
+  color: #1ca8f7;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 #sidebar h4 {
   padding-top: 20px;
 }
 #sidebar ul {
-  font-family: "Nexa light", Helvetica, Arial;
   padding-top: -20px;
+  font-family: "Nexa light", Helvetica, Arial;
 }
 #sidebar ul li {
   margin-bottom: -20px;
 }
 #sidebar #correoSoporte {
-  background-color: white;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  padding: -5px 5px 5px 5px;
   margin: 15px 0;
+  padding: -5px 5px 5px 5px;
+  background-color: white;
 }
 #sidebar #correoSoporte h4 {
-  text-align: center;
   color: #636363;
+  text-align: center;
 }
 #sidebar #correoSoporte a {
-  font-family: "Nexa Bold", Helvetica, Arial;
-  font-size: 1.3em;
   padding: 3px 10px;
   color: #1ca8f7;
   text-decoration: none;
+  font-size: 1.3em;
+  font-family: "Nexa Bold", Helvetica, Arial;
 }
 .cinco {
   font-size: 5em;
@@ -552,8 +538,8 @@ button.btn-verde {
 /*----------------media tablet-------------*/
 @media only screen and (min-width: 720px) and (max-width: 959px) {
   .nav > li > a {
-    font-size: 16px;
     padding: 5px 10px;
+    font-size: 16px;
   }
   #aprenderas {
     margin-top: 100px;
@@ -611,14 +597,14 @@ button.btn-verde {
   #otromenu #menu {
     top: -100px;
     float: right;
-    font-size: 1em;
-    padding: 0 -10px;
     margin-top: -50px;
+    padding: 0 -10px;
+    font-size: 1em;
   }
   #comprar #contenido-comprar section {
+    margin: 0 auto;
     width: 300px;
     height: 300px;
-    margin: 0 auto;
   }
   #comprar #contenido-comprar section h1 {
     font-size: 2em;
