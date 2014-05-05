@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16903",
 "files": {
+	"\/afiliate.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/afiliate.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11,38 +20,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bocetos\/index_v1.4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.12943e+06,
-		"inputAbbreviatedPath": "\/bocetos\/index_v1.4.jpg",
-		"outputAbbreviatedPath": "\/bocetos\/index_v1.4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bocetos\/soporte.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 498192,
-		"inputAbbreviatedPath": "\/bocetos\/soporte.jpg",
-		"outputAbbreviatedPath": "\/bocetos\/soporte.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/comprar.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/comprar.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"processed": 1
 		},
 	"\/css\/bootstrap.css": {
 		"fileType": 16,
@@ -210,6 +188,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/felicidades.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/felicidades.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1000,7 +987,7 @@
 		"outputAbbreviatedPath": "\/img\/comprar-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/comprarBG.jpg": {
 		"fileType": 16384,
@@ -1011,7 +998,7 @@
 		"outputAbbreviatedPath": "\/img\/comprarBG.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/contactanosbanner.jpg": {
 		"fileType": 16384,
@@ -1022,7 +1009,7 @@
 		"outputAbbreviatedPath": "\/img\/contactanosbanner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-afiliados.jpg": {
 		"fileType": 16384,
@@ -1033,7 +1020,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-afiliados.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-aprovecharlo.png": {
 		"fileType": 32768,
@@ -1044,7 +1031,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-aprovecharlo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-beneficios.png": {
 		"fileType": 32768,
@@ -1055,7 +1042,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-beneficios.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-como-funciona.png": {
 		"fileType": 32768,
@@ -1066,7 +1053,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-como-funciona.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-curso.jpg": {
 		"fileType": 16384,
@@ -1077,7 +1064,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-curso.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-dudas.jpg": {
 		"fileType": 16384,
@@ -1088,7 +1075,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-dudas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-facebook.jpg": {
 		"fileType": 16384,
@@ -1099,7 +1086,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-facebook.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-macbook.jpg": {
 		"fileType": 16384,
@@ -1110,7 +1097,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-macbook.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-que-es.png": {
 		"fileType": 32768,
@@ -1121,7 +1108,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-que-es.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-quote-bg.jpg": {
 		"fileType": 16384,
@@ -1132,7 +1119,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-quote-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-twitter.jpg": {
 		"fileType": 16384,
@@ -1143,7 +1130,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-twitter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/forex-X.png": {
 		"fileType": 32768,
@@ -1154,7 +1141,7 @@
 		"outputAbbreviatedPath": "\/img\/forex-X.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/logotipo.jpg": {
 		"fileType": 16384,
@@ -1165,7 +1152,7 @@
 		"outputAbbreviatedPath": "\/img\/logotipo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/mail-bg.jpg": {
 		"fileType": 16384,
@@ -1176,7 +1163,7 @@
 		"outputAbbreviatedPath": "\/img\/mail-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/play.png": {
 		"fileType": 32768,
@@ -1187,7 +1174,7 @@
 		"outputAbbreviatedPath": "\/img\/play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sliders\/forex-slider01.jpg": {
 		"fileType": 16384,
@@ -1198,7 +1185,7 @@
 		"outputAbbreviatedPath": "\/img\/sliders\/forex-slider01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/soportebanner.jpg": {
 		"fileType": 16384,
@@ -1209,7 +1196,7 @@
 		"outputAbbreviatedPath": "\/img\/soportebanner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -1391,6 +1378,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/jquery.malihu.PageScroll2id-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/jquery.malihu.PageScroll2id-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/menuHeader-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/menuHeader-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/menuHeader-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
