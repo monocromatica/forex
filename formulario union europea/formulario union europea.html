@@ -9,9 +9,32 @@
     <script type="text/javascript" src="common/js/form_init.js" data-name=""
     id="form_init_script">
     </script>
-    <link rel="stylesheet" type="text/css" href="theme/default/css/default.css"
-    id="theme" />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="theme/default/css/default.css"  id="theme" />
+<style>
+	#terminos {
+		height: 150px;
+		padding: 10px !important;
+		border: 1px solid #ebebeb !important;
+		overflow: scroll;
+	}
+	.form-control {
+	  display: block;
+	  width: 100%;
+	  height: 34px;
+	  padding: 6px 12px;
+	  font-size: 14px;
+	  line-height: 1.42857143;
+	  color: #555555;
+	  background-color: #ffffff;
+	  background-image: none;
+	  border: 1px solid #cccccc;
+	  border-radius: 4px;
+	  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	}	
+</style>
     <!-- End of the headers for CoffeeCup Web Form Builder -->
     <title>
       formulario union europea
@@ -95,13 +118,22 @@ data-boxshadow="false" data-form="manual_iframe">
           autocomplete="off" data-hint="" name="estado" required/>
         </div>
       </div>
-      <div id="item14" class="fb-item fb-25-item-column" style="padding-right: 4px; padding-left: 4px;">
+      <div id="item19" class="fb-item fb-25-item-column">
         <div class="fb-grouplabel">
-          <label id="item14_label_0" style="display: inline;">Pa&iacute;s</label>
+          <label id="item19_label_0" style="display: inline;">Pa&iacute;s</label>
         </div>
-        <div class="fb-input-box">
-          <input type="text" id="item14_text_1" maxlength="254" placeholder="coloca tu pa&iacute;s"
-          autocomplete="off" data-hint="" name="pais" required/>
+        <div class="fb-dropdown">
+          <select id="item19_select_1" data-hint="" name="select19" class="form-control">
+            <option id="item19_0_option" selected value="Opci&oacute;n 1">
+              Opci&oacute;n 1
+            </option>
+            <option id="item19_1_option" value="Opci&oacute;n 2">
+              Opci&oacute;n 2
+            </option>
+            <option id="item19_2_option" value="Opci&oacute;n 3">
+              Opci&oacute;n 3
+            </option>
+          </select>
         </div>
       </div>
       <div id="item12" class="fb-item fb-25-item-column" style="padding-right: 4px; padding-left: 4px;">
@@ -142,7 +174,7 @@ data-boxshadow="false" data-form="manual_iframe">
       <div id="item18" class="fb-item fb-100-item-column" style="opacity: 1;">
         <div class="fb-html">
           <div id="item18_div_0">
-            <div id='“terminos'>
+            <div id='terminos'>
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio commodi assumenda. Illum beatae doloremque dolores ea similique corporis eum porro saepe adipisci expedita! Minima quod quaerat tempore temporibus sit quo! Fugit rem consequatur placeat quibusdam repudiandae nisi odit ea assumenda ad cupiditate dolore totam suscipit maiores. Veniam cumque soluta at.
 	</p>
